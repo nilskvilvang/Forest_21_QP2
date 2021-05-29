@@ -1,0 +1,37 @@
+---
+title: " "
+output: pdf_document
+header-includes:
+  - \usepackage{float}
+
+---
+
+# Introduction
+
+## Foreword
+
+## Project Description
+
+### Project Coordinator
+
+### Participating Organizations
+
+### Project Characteristics
+
+### Regulatory Framework and References
+
+### Project Goals and Objectives
+
+### Structure for Project Work and Cooperation
+
+### Key Project Deliverables, Milestones and Processes
+
+## Definitions
+
+### Quality Management
+
+### Quality Planning
+
+### Quality Assurance
+
+### Quality Control

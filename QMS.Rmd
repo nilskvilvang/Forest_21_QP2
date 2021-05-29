@@ -1,0 +1,74 @@
+---
+title: " "
+output: pdf_document
+header-includes:
+  - \usepackage{float}
+---
+
+# Quality Management Strategy
+
+## Scope and Objective of the Deliverable
+
+## Quality Standard
+
+## Quality Planning
+
+### Visual Profile
+
+### Deliverables
+
+### Publications
+
+#### Notice of Planned Publications
+
+#### Dissemination/Marketing and Publications
+
+#### Notification of Funding
+
+### Management and Internal Communication Tools
+
+## Quality Assurance
+
+### Interim Managemnet Reports
+
+#### Finished, Ongoing and Planned Activities
+
+#### Estimates of Efforts Per Quarter
+
+### Standardization of Documents and Deliverables
+
+#### Numbering of Documents
+
+#### References in Documents
+
+### Quality Tools
+
+#### Completeness
+
+#### Accuracy
+
+#### Relevance
+
+#### Language
+
+## Quality Control
+
+### Internal Review Process
+
+### Monitoring Activities
+
+### Risk Management
+
+### Quality Control of Deliverables
+
+### Quality Control of the Project
+
+### Files, Archives and Collaborative Tools
+
+## Quality Roles and Responsibilities
+
+### Author/Authoring Unit Level
+
+### Partner Level
+
+### Executive Board
