@@ -27,7 +27,7 @@ header-includes:
   - \pagestyle{fancy} 
   - \fancyhf{} 
   - \addtolength{\headheight}{1.0cm}
-  - \rhead{Work in Progress - Version No. 0.10} \lhead{\includegraphics[width=2cm]{Forest21logo.png}}
+  - \rhead{Work in Progress - Version No. 0.11} \lhead{\includegraphics[width=2cm]{Forest21logo.png}}
   - \rfoot{\thepage} \fancypagestyle{plain}{\pagestyle{fancy}}
 bibliography: QP2.bib
 ---
