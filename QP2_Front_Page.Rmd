@@ -6,7 +6,7 @@ output:
     highlight: pygments
     keep_tex: yes
     number_sections: yes
-geometry: "left = 2.5cm, right = 2cm, top = 2cm, bottom = 2cm"
+geometry: "left = 2.5cm, right = 2cm, top = 2cm, bottom = 3cm"
 fontsize: 11pt
 header-includes:
   - \usepackage{float}
@@ -28,6 +28,7 @@ header-includes:
   - \fancyhf{} 
   - \addtolength{\headheight}{1.0cm}
   - \rhead{Work in Progress - Version No. 0.10} \lhead{\includegraphics[width=2cm]{Forest21logo.png}}
+  - \rfoot{\thepage} \fancypagestyle{plain}{\pagestyle{fancy}}
 bibliography: QP2.bib
 ---
 
@@ -37,14 +38,13 @@ options(tinytex.verbose = TRUE)
 
 if(!require(pacman)) install.packages("pacman")
 
-pacman::p_load(assertthat, backports, broom, cli, crayon, DBI, digest, dplyr, ellipsis, evaluate, fansi, flextable, generics, glue, 
-               htmltools, kableExtra, knitr, lifecycle, magrittr, pillar, pkgconfig, purrr, R6, rlang, sessioninfo, stringi, stringr,                        tibble, tidyr, tidyselect, utf8, vctrs, withr, xfun, yaml)
+pacman::p_load(assertthat, backports, base64enc, broom, cli, colorspace, crayon, data.table, DBI, digest, dplyr, ellipsis, evaluate, fansi, flextable, gdtools, generics, glue, htmltools, httr , kableExtra, knitr, lifecycle, magrittr, munsell, officer, pillar, pkgconfig, purrr, R6, rlang, rmarkdown, rstudioapi, rvest, scales, sessioninfo, stringi, stringr, svglite, systemfonts, tibble, tidyr, tidyselect, utf8, uuid, vctrs, viridisLite, webshot, withr, xfun, xml2, yaml, zip)
 ```
 
 \subsectionfont{\raggedright}
 \subsubsectionfont{\raggedright}
 
-\pagenumbering{gobble}
+\thispagestyle{empty}
 
 \begin{centering}
 
@@ -116,7 +116,7 @@ preamble1 <- tibble(x = c("Project Number",
                           "Contact Details",
                           "",
                           "Abstract",
-                          "Keyword"),
+                          "Keywords"),
                     y = c("123", 
                           "FOREST21", 
                           "FOREST21 - 21st Century Climate-Smart Forestry Education for Livelihood and Sustainability in South                                  Africa",
@@ -138,8 +138,54 @@ preamble1 <- tibble(x = c("Project Number",
                           "Adress: \n Phone: \n Mail:",
                           "",
                           "This is an abstract that must describe and summarize the project and this document.",
-                          "Forest21, Forest Eduaciton, Forest Training, Problem-Based Learning"))
+                          "Forest21, Forest Education, Forest Training, Problem-Based Learning"))
 
 kable(preamble1, col.names = NULL) %>%
   kable_styling(font_size = 11, full_width = TRUE, "scale_down") 
 ```
+
+\clearpage
+
+\tableofcontents
+
+\clearpage
+
+# Executive Summary {-}
+
+\clearpage
+
+# List of Figures and Tables {-}
+
+\clearpage
+
+# List of Abbreviations {-}
+
+\clearpage
+
+# Lists of Contributors {-}
+
+\clearpage
+
+\pagenumbering{arabic}
+
+
+
+
+
+\clearpage
+
+# References {.unnumbered}
+
+\clearpage
+
+# Appendicies {.unnumbered}
+
+\clearpage
+
+# Session Info {.unnumbered}
+
+```{r echo=FALSE}
+sessioninfo::session_info()
+```
+
+

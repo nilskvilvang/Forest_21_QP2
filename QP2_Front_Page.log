@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.28)  29 MAY 2021 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.28)  29 MAY 2021 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -605,24 +605,24 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 ) (./QP2_Front_Page.aux)
 \openout1 = `QP2_Front_Page.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
 
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epsto
 pdf-base.sty
@@ -635,7 +635,7 @@ df-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 102.
+Package hyperref Info: Link coloring OFF on input line 103.
 
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
@@ -651,9 +651,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count303
 )
-LaTeX Info: Redefining \ref on input line 102.
-LaTeX Info: Redefining \pageref on input line 102.
-LaTeX Info: Redefining \nameref on input line 102.
+LaTeX Info: Redefining \ref on input line 103.
+LaTeX Info: Redefining \pageref on input line 103.
+LaTeX Info: Redefining \nameref on input line 103.
 (./QP2_Front_Page.out) (./QP2_Front_Page.out)
 \@outlinefile=\write3
 \openout3 = `QP2_Front_Page.out'.
@@ -667,11 +667,11 @@ LaTeX Info: Redefining \nameref on input line 102.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(71.13188pt, 486.25761pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 652.70622pt, 85.35826pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=486.25761pt
-* \textheight=681.15898pt
+* \textheight=652.70622pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
 * \topmargin=-52.36449pt
@@ -694,100 +694,177 @@ LaTeX Info: Redefining \nameref on input line 102.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 102.
-<Partner_logos.png, id=8, 747.9945pt x 162.6075pt>
+(lastpage)             ! on input line 103.
+<Partner_logos.png, id=36, 747.9945pt x 162.6075pt>
 File: Partner_logos.png Graphic file (type png)
 <use Partner_logos.png>
-Package pdftex.def Info: Partner_logos.png  used on input line 114.
+Package pdftex.def Info: Partner_logos.png  used on input line 115.
 (pdftex.def)             Requested size: 486.27055pt x 105.71098pt.
-<EU_logo.png, id=10, 190.46156pt x 46.67438pt>
+<EU_logo.png, id=38, 190.46156pt x 46.67438pt>
 File: EU_logo.png Graphic file (type png)
 <use EU_logo.png>
-Package pdftex.def Info: EU_logo.png  used on input line 133.
+Package pdftex.def Info: EU_logo.png  used on input line 134.
 (pdftex.def)             Requested size: 190.46979pt x 46.67638pt.
-<Forest21logo.png, id=11, 282.45525pt x 59.62276pt>
-File: Forest21logo.png Graphic file (type png)
-<use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 149.
-(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[1{c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map}
+[1
 
- <./Forest21logo.png> <./Partner_logos.png> <./EU_logo.png>]
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 160.
+{c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
+x.map} <./Partner_logos.png> <./EU_logo.png>]
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 161.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-60.
+61.
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-60.
+61.
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-160.
+161.
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-160.
+161.
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 160.
+(Font)              <11> on input line 161.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 160.
+(Font)              <7.69997> on input line 161.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 160.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 160
+(Font)              <5.5> on input line 161.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 161
 .
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 160
+LaTeX Font Info:    Trying to load font information for U+msb on input line 161
 .
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 160--212
+Underfull \hbox (badness 10000) in paragraph at lines 161--213
 
  []
 
-
-AED: lastpage setting LastPage
+<Forest21logo.png, id=48, 282.45525pt x 59.62276pt>
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 213.
+Package pdftex.def Info: Forest21logo.png  used on input line 214.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [1
 
-] (./QP2_Front_Page.aux)
+ <./Forest21logo.png>] (./QP2_Front_Page.toc)
+\tf@toc=\write4
+\openout4 = `QP2_Front_Page.toc'.
+
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 218.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[2
+
+]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 224.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[3
+
+]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 230.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[4
+
+]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 236.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[5
+
+]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 242.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[6
+
+]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 252.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.252 \clearpage
+                 [1
+
+
+]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 258.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[2
+
+]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+64.
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 336.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[3
+
+]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 336.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[4] 
+AED: lastpage setting LastPage
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 338.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[5] (./QP2_Front_Page.aux)
 Package rerunfilecheck Info: File `QP2_Front_Page.out' has not changed.
-(rerunfilecheck)             Checksum: BE0FE772796A4A9554C3DFF9621225CF;213.
+(rerunfilecheck)             Checksum: 4C6E3892C1399ED8AE153CF4D6B81D99;1141.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 65 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12482 strings out of 480714
- 182883 string characters out of 5901854
- 505222 words of memory out of 5000000
- 29696 multiletter control sequences out of 15000+600000
- 428092 words of font info for 49 fonts, out of 8000000 for 9000
+ 12571 strings out of 480714
+ 184211 string characters out of 5901854
+ 509549 words of memory out of 5000000
+ 29753 multiletter control sequences out of 15000+600000
+ 431406 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,15n,66p,263b,3044s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,15n,66p,263b,3147s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dv
 ips/lm/lm-ec.enc}<c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1
-/public/lm/lmbx12.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fonts/
-type1/public/lm/lmr10.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fo
-nts/type1/public/lm/lmr12.pfb>
-Output written on QP2_Front_Page.pdf (2 pages, 226996 bytes).
+/public/lm/lmbx10.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fonts/
+type1/public/lm/lmbx12.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/f
+onts/type1/public/lm/lmr10.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-di
+st/fonts/type1/public/lm/lmr12.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texm
+f-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on QP2_Front_Page.pdf (12 pages, 291490 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 24 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 142 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 80 words of extra memory for PDF output out of 10000 (max. 10000000)
 
