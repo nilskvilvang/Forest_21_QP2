@@ -38,10 +38,9 @@ options(tinytex.verbose = TRUE)
 if(!require(pacman)) install.packages("pacman")
 
 pacman::p_load(assertthat, backports, broom, cli, crayon, DBI, digest, dplyr, ellipsis, evaluate, fansi, flextable, generics, glue, 
-               htmltools, kableExtra, knitr, lifecycle, magrittr, pillar, pkgconfig, purrr, R6, rlang, sessioninfo, stringi, stringr,                tibble, tidyr, tidyselect, utf8, vctrs, withr, xfun, yaml)
+               htmltools, kableExtra, knitr, lifecycle, magrittr, pillar, pkgconfig, purrr, R6, rlang, sessioninfo, stringi, stringr,                        tibble, tidyr, tidyselect, utf8, vctrs, withr, xfun, yaml)
 ```
 
-\allsectionsfont{\centering}
 \subsectionfont{\raggedright}
 \subsubsectionfont{\raggedright}
 
@@ -93,4 +92,54 @@ The users use the information at their sole risk and liability.
 
 \pagenumbering{roman}
 
-# Introduction
+# Project and document information {-}
+
+```{r}
+preamble1 <- tibble(x = c("Project Number", 
+                          "Project Acronym", 
+                          "Project Title", 
+                          "Start Date of Project", 
+                          "End Date of Project", 
+                          "Program",
+                          "",
+                          "Deliverable Type",
+                          "Delverable Ref No.",
+                          "Due Date",
+                          "Actual Submission Date",
+                          "Final Revision No.",
+                          "Dissemiation Level",
+                          "",
+                          "Lead Coordinator",
+                          "Contact Details",
+                          "",
+                          "Finanical Coordinator",
+                          "Contact Details",
+                          "",
+                          "Abstract",
+                          "Keyword"),
+                    y = c("123", 
+                          "FOREST21", 
+                          "FOREST21 - 21st Century Climate-Smart Forestry Education for Livelihood and Sustainability in South                                  Africa",
+                          "Date", 
+                          "Date", 
+                          "Program X",
+                          "",
+                          "XXXccccc",
+                          "1289727",
+                          "Date",
+                          "Date",
+                          "1.0",
+                          "GUxxx",
+                          "",
+                          "XXXX xxxxx",
+                          "Adress: \n Phone: \n Mail",
+                          "",
+                          "YYYY yyyyyy",
+                          "Adress: \n Phone: \n Mail:",
+                          "",
+                          "This is an abstract that must describe and summarize the project and this document.",
+                          "Forest21, Forest Eduaciton, Forest Training, Problem-Based Learning"))
+
+kable(preamble1, col.names = NULL) %>%
+  kable_styling(font_size = 11, full_width = TRUE, "scale_down") 
+```
