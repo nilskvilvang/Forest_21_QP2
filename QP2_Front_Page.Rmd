@@ -94,54 +94,68 @@ The users use the information at their sole risk and liability.
 
 # Project and document information {-}
 
-```{r}
-preamble1 <- tibble(x = c("Project Number", 
-                          "Project Acronym", 
-                          "Project Title", 
-                          "Start Date of Project", 
-                          "End Date of Project", 
-                          "Program",
-                          "",
-                          "Deliverable Type",
-                          "Delverable Ref No.",
-                          "Due Date",
-                          "Actual Submission Date",
-                          "Final Revision No.",
-                          "Dissemiation Level",
-                          "",
-                          "Lead Coordinator",
-                          "Contact Details",
-                          "",
-                          "Finanical Coordinator",
-                          "Contact Details",
-                          "",
-                          "Abstract",
-                          "Keywords"),
-                    y = c("123", 
-                          "FOREST21", 
-                          "FOREST21 - 21st Century Climate-Smart Forestry Education for Livelihood and Sustainability in South                                  Africa",
-                          "Date", 
-                          "Date", 
-                          "Program X",
-                          "",
-                          "XXXccccc",
-                          "1289727",
-                          "Date",
-                          "Date",
-                          "1.0",
-                          "GUxxx",
-                          "",
-                          "XXXX xxxxx",
-                          "Adress: \n Phone: \n Mail",
-                          "",
-                          "YYYY yyyyyy",
-                          "Adress: \n Phone: \n Mail:",
-                          "",
-                          "This is an abstract that must describe and summarize the project and this document.",
-                          "Forest21, Forest Education, Forest Training, Problem-Based Learning"))
+```{r PDI, echo = FALSE}
+library(flextable)
+library(magrittr)
 
-kable(preamble1, col.names = NULL) %>%
-  kable_styling(font_size = 11, full_width = TRUE, "scale_down") 
+set_flextable_defaults(fonts_ignore=TRUE) 
+
+preamble <- data.frame(Item = c("Project Number", 
+                                "Project Acronym", 
+                                "Project Title", 
+                                "Start Date of Project", 
+                                "End Date of Project", 
+                                "Program",
+                                "",
+                                "Deliverable Type",
+                                "Delverable Ref No.",
+                                "Due Date",
+                                "Actual Submission Date",
+                                "Final Revision No.",
+                                "Dissemiation Level",
+                                "",
+                                "Lead Coordinator",
+                                "Contact Details",
+                                "",
+                                "Finanical Coordinator",
+                                "Contact Details",
+                                "",
+                                "Abstract",
+                                "Keyword"),
+                        Value = c("123", 
+                                  "FOREST21", 
+                                  "FOREST21 - 21st Century Climate-Smart Forestry Education for Livelihood and Sustainability in South                                           Africa",
+                                  "Date", 
+                                  "Date", 
+                                  "Program X",
+                                  "",
+                                  "XXXccccc",
+                                  "1289727",
+                                  "Date",
+                                  "Date",
+                                  "1.0",
+                                  "GUxxx",
+                                  "",
+                                  "XXXX xxxxx",
+                                  "Adress: \n Phone: \n Mail",
+                                  "",
+                                  "YYYY yyyyyy",
+                                  "Adress: \n Phone: \n Mail:",
+                                  "",
+                                  "This is an abstract that must describe and summarize the project and this document.",
+                                  "Forest21, Forest Eduaciton, Forest Training, Problem-Based Learning"))
+
+preamble <- flextable(preamble)
+
+preamble <- height(preamble, height = .3) %>% 
+  hrule(rule = "exact", part = "body")  
+                       
+preamble %>%  
+  theme_vanilla() %>% # evt theme_zebra
+  width(j=~Item,width=2) %>% 
+  width(j=~Value,width=5) %>%
+  set_caption("Project and Document Information") 
+  
 ```
 
 \clearpage
@@ -155,7 +169,9 @@ kable(preamble1, col.names = NULL) %>%
 
 \clearpage
 
-# List of Figures and Tables {-}
+\listoffigures
+
+\listoftables
 
 \clearpage
 
@@ -164,6 +180,8 @@ kable(preamble1, col.names = NULL) %>%
 \clearpage
 
 # Lists of Contributors {-}
+
+\clearpage
 
 \pagenumbering{arabic}
 

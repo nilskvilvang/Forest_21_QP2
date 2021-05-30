@@ -77,7 +77,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \addtolength{\headheight}{1.0cm}
-\rhead{Work in Progress - Version No. 0.10} \lhead{\includegraphics[width=2cm]{Forest21logo.png}}
+\rhead{Work in Progress - Version No. 0.11} \lhead{\includegraphics[width=2cm]{Forest21logo.png}}
 \rfoot{\thepage} \fancypagestyle{plain}{\pagestyle{fancy}}
 \usepackage{booktabs}
 \usepackage{longtable}
@@ -93,6 +93,9 @@
 \usepackage[normalem]{ulem}
 \usepackage{makecell}
 \usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{hhline}
+\usepackage{hyperref}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -156,60 +159,163 @@ The users use the information at their sole risk and liability.
 information}\label{project-and-document-information}}
 \addcontentsline{toc}{section}{Project and document information}
 
-\begingroup\fontsize{11}{13}\selectfont
+\providecommand{\docline}[3]{\noalign{\global\setlength{\arrayrulewidth}{#1}}\arrayrulecolor[HTML]{#2}\cline{#3}}
 
-\begin{tabu} to \linewidth {>{\raggedright}X>{\raggedright}X}
-\hline
-Project Number & 123\\
-\hline
-Project Acronym & FOREST21\\
-\hline
-Project Title & FOREST21 - 21st Century Climate-Smart Forestry Education for Livelihood and Sustainability in South                                  Africa\\
-\hline
-Start Date of Project & Date\\
-\hline
-End Date of Project & Date\\
-\hline
-Program & Program X\\
-\hline
- & \\
-\hline
-Deliverable Type & XXXccccc\\
-\hline
-Delverable Ref No. & 1289727\\
-\hline
-Due Date & Date\\
-\hline
-Actual Submission Date & Date\\
-\hline
-Final Revision No. & 1.0\\
-\hline
-Dissemiation Level & GUxxx\\
-\hline
- & \\
-\hline
-Lead Coordinator & XXXX xxxxx\\
-\hline
-Contact Details & Adress: 
- Phone: 
- Mail\\
-\hline
- & \\
-\hline
-Finanical Coordinator & YYYY yyyyyy\\
-\hline
-Contact Details & Adress: 
- Phone: 
- Mail:\\
-\hline
- & \\
-\hline
-Abstract & This is an abstract that must describe and summarize the project and this document.\\
-\hline
-Keywords & Forest21, Forest Education, Forest Training, Problem-Based Learning\\
-\hline
-\end{tabu}
-\endgroup{}
+\setlength{\tabcolsep}{2pt}
+
+\renewcommand*{\arraystretch}{1.5}
+
+\begin{longtable}[c]{|p{2.00in}|p{5.00in}}
+
+\caption{Project and Document Information}\\
+
+\hhline{>{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=2pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=2pt}-}
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\textbf{Item}}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\textbf{Value}}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{2pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+\endfirsthead
+
+\hhline{>{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=2pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=2pt}-}
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\textbf{Item}}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\textbf{Value}}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{2pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}\endhead
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Project Number}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{123}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Project Acronym}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{FOREST21}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Project Title}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{FOREST21 - 21st Century Climate-Smart Forestry Education for Livelihood and Sustainability in South                                           Africa}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Start Date of Project}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Date}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{End Date of Project}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Date}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Program}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Program X}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Deliverable Type}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{XXXccccc}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Delverable Ref No.}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{1289727}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Due Date}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Date}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Actual Submission Date}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Date}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Final Revision No.}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{1.0}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Dissemiation Level}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{GUxxx}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Lead Coordinator}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{XXXX xxxxx}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Contact Details}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Adress: \linebreak  Phone: \linebreak  Mail}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Finanical Coordinator}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{YYYY yyyyyy}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Contact Details}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Adress: \linebreak  Phone: \linebreak  Mail:}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Abstract}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{This is an abstract that must describe and summarize the project and this document.}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Keyword}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Forest21, Forest Eduaciton, Forest Training, Problem-Based Learning}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{2pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+\end{longtable}
 
 \clearpage
 
@@ -224,9 +330,9 @@ Keywords & Forest21, Forest Education, Forest Training, Problem-Based Learning\\
 
 \clearpage
 
-\hypertarget{list-of-figures-and-tables}{%
-\section*{List of Figures and Tables}\label{list-of-figures-and-tables}}
-\addcontentsline{toc}{section}{List of Figures and Tables}
+\listoffigures
+
+\listoftables
 
 \clearpage
 
@@ -239,6 +345,8 @@ Keywords & Forest21, Forest Education, Forest Training, Problem-Based Learning\\
 \hypertarget{lists-of-contributors}{%
 \section*{Lists of Contributors}\label{lists-of-contributors}}
 \addcontentsline{toc}{section}{Lists of Contributors}
+
+\clearpage
 
 \pagenumbering{arabic}
 
@@ -305,7 +413,7 @@ Strategy}\label{quality-management-strategy}}
 Deliverable}\label{scope-and-objective-of-the-deliverable}}
 
 \hypertarget{quality-standard}{%
-\subsection{QUality Standard}\label{quality-standard}}
+\subsection{Quality Standard}\label{quality-standard}}
 
 \hypertarget{quality-planning-1}{%
 \subsection{Quality Planning}\label{quality-planning-1}}
@@ -446,7 +554,7 @@ Level}\label{authorauthoring-unit-level}}
 ##  collate  Norwegian Bokmål_Norway.1252
 ##  ctype    Norwegian Bokmål_Norway.1252
 ##  tz       Europe/Berlin               
-##  date     2021-05-29                  
+##  date     2021-05-30                  
 ## 
 ## - Packages -------------------------------------------------------------------
 ##  package     * version    date       lib source                           
