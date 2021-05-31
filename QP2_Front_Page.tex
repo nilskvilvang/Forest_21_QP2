@@ -77,7 +77,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \addtolength{\headheight}{1.0cm}
-\rhead{Work in Progress - Version No. 0.11} \lhead{\includegraphics[width=2cm]{Forest21logo.png}}
+\rhead{Work in Progress - Version No. 0.12} \lhead{\includegraphics[width=2cm]{Forest21logo.png}}
 \rfoot{\thepage} \fancypagestyle{plain}{\pagestyle{fancy}}
 \usepackage{booktabs}
 \usepackage{longtable}
@@ -319,8 +319,48 @@ information}\label{project-and-document-information}}
 
 \clearpage
 
-\setcounter{tocdepth}{2}
+\hypertarget{version-history}{%
+\section*{Version History}\label{version-history}}
+\addcontentsline{toc}{section}{Version History}
+
+\providecommand{\docline}[3]{\noalign{\global\setlength{\arrayrulewidth}{#1}}\arrayrulecolor[HTML]{#2}\cline{#3}}
+
+\setlength{\tabcolsep}{2pt}
+
+\renewcommand*{\arraystretch}{1.5}
+
+\begin{longtable}[c]{|p{2.00in}|p{5.00in}}
+
+\caption{Version History}\\
+
+\hhline{>{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=2pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=2pt}-}
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\textbf{Version}}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\textbf{Status}}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{2pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+\endfirsthead
+
+\hhline{>{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=2pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=2pt}-}
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\textbf{Version}}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\textbf{Status}}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{2pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}\endhead
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{0.1}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Initial version}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{2pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+\end{longtable}
+
+\clearpage
+
+\renewcommand{\baselinestretch}{0.75}\normalsize
+\setcounter{tocdepth}{3}
 \tableofcontents
+\renewcommand{\baselinestretch}{1.0}\normalsize
 
 \clearpage
 
@@ -554,7 +594,7 @@ Level}\label{authorauthoring-unit-level}}
 ##  collate  Norwegian Bokmål_Norway.1252
 ##  ctype    Norwegian Bokmål_Norway.1252
 ##  tz       Europe/Berlin               
-##  date     2021-05-30                  
+##  date     2021-05-31                  
 ## 
 ## - Packages -------------------------------------------------------------------
 ##  package     * version    date       lib source                           

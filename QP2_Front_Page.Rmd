@@ -27,7 +27,7 @@ header-includes:
   - \pagestyle{fancy} 
   - \fancyhf{} 
   - \addtolength{\headheight}{1.0cm}
-  - \rhead{Work in Progress - Version No. 0.11} \lhead{\includegraphics[width=2cm]{Forest21logo.png}}
+  - \rhead{Work in Progress - Version No. 0.12} \lhead{\includegraphics[width=2cm]{Forest21logo.png}}
   - \rfoot{\thepage} \fancypagestyle{plain}{\pagestyle{fancy}}
 bibliography: QP2.bib
 ---
@@ -160,8 +160,33 @@ preamble %>%
 
 \clearpage
 
-\setcounter{tocdepth}{2}
+# Version History {-}
+
+```{r}
+
+verhist <- data.frame(Version = c("0.1"), Status = c("Initial version"))
+
+verhist <- flextable(verhist)
+
+verhist <- height(verhist, height = .3) %>% 
+  hrule(rule = "exact", part = "body")  
+                       
+verhist %>%  
+  theme_vanilla() %>% # evt theme_zebra
+  width(j=~Version,width=2) %>% 
+  width(j=~Status,width=5) %>%
+  set_caption("Version History") 
+
+
+```
+
+
+\clearpage
+
+\renewcommand{\baselinestretch}{0.75}\normalsize
+\setcounter{tocdepth}{3}
 \tableofcontents
+\renewcommand{\baselinestretch}{1.0}\normalsize
 
 \clearpage
 
