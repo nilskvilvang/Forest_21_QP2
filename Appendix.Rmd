@@ -5,4 +5,3 @@ header-includes:
   - \usepackage{float}
 bibliography: QP2.bib
 ---
-# Summary

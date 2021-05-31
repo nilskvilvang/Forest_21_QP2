@@ -63,11 +63,8 @@
 \usepackage{sectsty}
 \usepackage{paralist}
 \usepackage{setspace}\spacing{1.5}
-\usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage{dcolumn}
-\usepackage{natbib}\bibliographystyle{agsm}
-\usepackage[nottoc, numbib]{tocbibind}
 \usepackage{longtable}
 \usepackage{titling}
 \pretitle{\begin{center}
@@ -99,6 +96,26 @@
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \author{}
 \date{\vspace{-2.5em}}
@@ -217,7 +234,13 @@ information}\label{project-and-document-information}}
 
 
 
-\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Program}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Program X}}} \\
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Call}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Call for Proposals 2020 - EAC/A02/2019}}} \\
+
+\noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
+
+
+
+\multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 2in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{Program}}} & \multicolumn{1}{!{\color[HTML]{000000}\vrule width 0pt}>{\raggedright}p{\dimexpr 5in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{000000}\vrule width 0pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{KA2 – Cooperation for innovation and the exchange of good practices – Capacity Building in the field of                                      Higher Education}}} \\
 
 \noalign{\global\setlength{\arrayrulewidth}{0.5pt}}\arrayrulecolor[HTML]{666666}\cline{1-2}
 
@@ -361,7 +384,7 @@ information}\label{project-and-document-information}}
 
 \clearpage
 
-\renewcommand{\baselinestretch}{0.75}\normalsize
+\renewcommand{\baselinestretch}{0.6}\normalsize
 \setcounter{tocdepth}{3}
 \tableofcontents
 \renewcommand{\baselinestretch}{1.0}\normalsize
@@ -375,7 +398,6 @@ information}\label{project-and-document-information}}
 \clearpage
 
 \listoffigures
-
 \listoftables
 
 \clearpage
@@ -404,6 +426,75 @@ information}\label{project-and-document-information}}
 
 \hypertarget{project-description}{%
 \subsection{Project Description}\label{project-description}}
+
+In South Africa, the forestry sector is increasingly seen as a critical
+sector for (i) livelihood development, given the simultaneous youth
+population bulge and high unemployment rates, as well as for (ii) the
+addressing of global sustainability challenges, given the potential of
+forestry to advance South Africa's National Climate Change Adaptation
+Plan (2018). Given this dual importance, Higher Education Institutions
+(HEIs) should naturally take a lead in preparing graduates to create
+sustainability-aligned economic opportunities. Yet, forestry HEIs in
+South Africa have constrained capacity to prepare graduates for
+post-school careers. These shortcomings exist for sector-specific
+knowledge on sustainable forestry practices, as well as for the
+entrepreneurial skills needed to leverage forestry opportunities. Given
+the importance of addressing these shortcomings, this project will
+involve collaboration between Finnish, Norwegian, and South African HEIs
+to develop the forestry-related curricula of South African HEIs, so that
+graduates are holistically equipped to sustainably leverage forestry for
+livelihood development.
+
+The project will address:
+
+\begin{itemize}
+\item
+  Increasing levels of unemployment in South Africa.
+
+  According to Statistics SA, around 10 million South Africans who are
+  actively looking for employment cannot find jobs, leading to an
+  unemployment rate of 27.6\%
+  (\href{http://www.statssa.gov.za/?m=2019}{http://www.statssa.gov.za/?m=2019).}.)
+  Youth are the most vulnerable in the South African labour market, with
+  even university graduates in this age group having an unemployment
+  rate of 31.0\%. Forestry-related entrepreneurship can provide a
+  partial solution to this problem, as young people have enormous
+  potential for innovation and risk-taking, which can produce start-ups
+  employing many people. To fully realize these opportunities embedded
+  in forestry, HEIs should use their curricula to produce inquisitive
+  graduates who can think in new ways, and who have the courage to meet
+  and adapt to the challenges facing them an entrepreneurial mindset
+  that is simultaneously mindful of sustainability.
+\item
+  Foresters mitigating climate change.
+
+  Forests are critical for global ecosystems and carbon balances,
+  especially because of their potential to sequester carbon in forests.
+  In its 2009 Forest Sector Charter, South Africa officially recognized
+  its massive potential to sequester carbon through new afforestation of
+  about 100 000 hectares (Forest Strategy 2009-2030). Yet, this
+  potential has not been exploited, sustainability has not entered the
+  mainstream of South African Forestry, and forestry graduates have not
+  internalized the importance, benefits, and necessity of integrating
+  sustainability into forestry. To address this shortcoming,
+  climate-smart forestry will seek new ways of producing, using, and
+  repurposing traditional forestry products like wood products, pulp,
+  paperboard, and paper. This will include teaching forestry students
+  the principles of the circular economy, of sustainable forestry
+  management, and the potential of new innovative wood-based
+  bioproducts. The overarching goal will be to not just lower the
+  environmental impact of current forestry practices, but to leverage
+  forestry management to increase the sequestration of carbon.
+\item
+  Foresters of 21st century, education shortcomings, and new teaching
+  methods
+
+  There is substantial discrepancy between what the forestry industry in
+  South Africa sees as the key skills for future foresters, and what is
+  being taught in HEIs offering forestry. Several research papers
+  highlight this, as Mgaga and Scholes (2019): ``Does tertiary education
+  in South Africa equip professional foresters for the future?''
+\end{itemize}
 
 \hypertarget{project-coordinator}{%
 \subsubsection{Project Coordinator}\label{project-coordinator}}
@@ -571,15 +662,20 @@ Level}\label{authorauthoring-unit-level}}
 
 \clearpage
 
-\hypertarget{references}{%
-\section*{References}\label{references}}
-\addcontentsline{toc}{section}{References}
+\hypertarget{bibliography}{%
+\section{Bibliography}\label{bibliography}}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-mgagaDoesTertiaryEducation2019}{}}%
+Mgaga, Palesa, and Mary C Scholes. 2019. {``Does Tertiary Education in
+{South Africa} Equip Professional Foresters for the Future?''}
+\emph{Southern Forests: A Journal of Forest Science} 81 (4): 377--85.
+\url{https://doi.org/10.2989/20702620.2019.1615230}.
+
+\end{CSLReferences}
 
 \clearpage
-
-\hypertarget{appendicies}{%
-\section*{Appendicies}\label{appendicies}}
-\addcontentsline{toc}{section}{Appendicies}
 
 \clearpage
 

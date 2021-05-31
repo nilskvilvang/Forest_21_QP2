@@ -3,6 +3,9 @@ title: " "
 output: pdf_document
 header-includes:
   - \usepackage{float}
+
+bibliography: QP2.bib
+
 ---
 
 # Introduction
@@ -10,6 +13,22 @@ header-includes:
 ## Foreword
 
 ## Project Description
+
+In South Africa, the forestry sector is increasingly seen as a critical sector for (i) livelihood development, given the simultaneous youth population bulge and high unemployment rates, as well as for (ii) the addressing of global sustainability challenges, given the potential of forestry to advance South Africa's National Climate Change Adaptation Plan (2018). Given this dual importance, Higher Education Institutions (HEIs) should naturally take a lead in preparing graduates to create sustainability-aligned economic opportunities. Yet, forestry HEIs in South Africa have constrained capacity to prepare graduates for post-school careers. These shortcomings exist for sector-specific knowledge on sustainable forestry practices, as well as for the entrepreneurial skills needed to leverage forestry opportunities. Given the importance of addressing these shortcomings, this project will involve collaboration between Finnish, Norwegian, and South African HEIs to develop the forestry-related curricula of South African HEIs, so that graduates are holistically equipped to sustainably leverage forestry for livelihood development.
+
+The project will address:
+
+-   Increasing levels of unemployment in South Africa.
+
+    According to Statistics SA, around 10 million South Africans who are actively looking for employment cannot find jobs, leading to an unemployment rate of 27.6% ([http://www.statssa.gov.za/?m=2019).](http://www.statssa.gov.za/?m=2019).) Youth are the most vulnerable in the South African labour market, with even university graduates in this age group having an unemployment rate of 31.0%. Forestry-related entrepreneurship can provide a partial solution to this problem, as young people have enormous potential for innovation and risk-taking, which can produce start-ups employing many people. To fully realize these opportunities embedded in forestry, HEIs should use their curricula to produce inquisitive graduates who can think in new ways, and who have the courage to meet and adapt to the challenges facing them an entrepreneurial mindset that is simultaneously mindful of sustainability.
+
+-   Foresters mitigating climate change.
+
+    Forests are critical for global ecosystems and carbon balances, especially because of their potential to sequester carbon in forests. In its 2009 Forest Sector Charter, South Africa officially recognized its massive potential to sequester carbon through new afforestation of about 100 000 hectares (Forest Strategy 2009-2030). Yet, this potential has not been exploited, sustainability has not entered the mainstream of South African Forestry, and forestry graduates have not internalized the importance, benefits, and necessity of integrating sustainability into forestry. To address this shortcoming, climate-smart forestry will seek new ways of producing, using, and repurposing traditional forestry products like wood products, pulp, paperboard, and paper. This will include teaching forestry students the principles of the circular economy, of sustainable forestry management, and the potential of new innovative wood-based bioproducts. The overarching goal will be to not just lower the environmental impact of current forestry practices, but to leverage forestry management to increase the sequestration of carbon.
+
+-   Foresters of 21st century, education shortcomings, and new teaching methods
+
+    There is substantial discrepancy between what the forestry industry in South Africa sees as the key skills for future foresters, and what is being taught in HEIs offering forestry. Several research papers highlight this, as @mgagaDoesTertiaryEducation2019: "Does tertiary education in South Africa equip professional foresters for the future?"
 
 ### Project Coordinator
 

@@ -13,11 +13,8 @@ header-includes:
   - \usepackage{sectsty}
   - \usepackage{paralist}
   - \usepackage{setspace}\spacing{1.5}
-  - \usepackage{fancyhdr}
   - \usepackage{lastpage}
   - \usepackage{dcolumn}
-  - \usepackage{natbib}\bibliographystyle{agsm}
-  - \usepackage[nottoc, numbib]{tocbibind}
   - \usepackage{longtable} 
   - \usepackage{titling} 
   - \pretitle{\begin{center}
@@ -29,6 +26,7 @@ header-includes:
   - \addtolength{\headheight}{1.0cm}
   - \rhead{Work in Progress - Version No. 0.12} \lhead{\includegraphics[width=2cm]{Forest21logo.png}}
   - \rfoot{\thepage} \fancypagestyle{plain}{\pagestyle{fancy}}
+
 bibliography: QP2.bib
 ---
 
@@ -107,6 +105,7 @@ preamble <- data.frame(Item = c("Project Number",
                                 "Project Title", 
                                 "Start Date of Project", 
                                 "End Date of Project", 
+                                "Call",
                                 "Program",
                                 "",
                                 "Deliverable Type",
@@ -129,7 +128,8 @@ preamble <- data.frame(Item = c("Project Number",
                                   "FOREST21 - 21st Century Climate-Smart Forestry Education for Livelihood and Sustainability in South                                           Africa",
                                   "Date", 
                                   "Date", 
-                                  "Program X",
+                                  "Call for Proposals 2020 - EAC/A02/2019",
+                                  "KA2 – Cooperation for innovation and the exchange of good practices – Capacity Building in the field of                                      Higher Education",
                                   "",
                                   "XXXccccc",
                                   "1289727",
@@ -187,7 +187,7 @@ verhist %>%
 
 \clearpage
 
-\renewcommand{\baselinestretch}{0.75}\normalsize
+\renewcommand{\baselinestretch}{0.6}\normalsize
 \setcounter{tocdepth}{3}
 \tableofcontents
 \renewcommand{\baselinestretch}{1.0}\normalsize
@@ -199,7 +199,6 @@ verhist %>%
 \clearpage
 
 \listoffigures
-
 \listoftables
 
 \clearpage
@@ -231,11 +230,13 @@ verhist %>%
 
 \clearpage
 
-# References {.unnumbered}
+# Bibliography
+<div id="refs"></div>
 
 \clearpage
 
-# Appendicies {.unnumbered}
+```{r Appendix, child = "Appendix.Rmd"}
+```
 
 \clearpage
 

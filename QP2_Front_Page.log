@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.28)  31 MAY 2021 12:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.28)  31 MAY 2021 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -402,20 +402,6 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.
-sty
-Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
-rs
-\f@nch@headwidth=\skip57
-\f@nch@O@elh=\skip58
-\f@nch@O@erh=\skip59
-\f@nch@O@olh=\skip60
-\f@nch@O@orh=\skip61
-\f@nch@O@elf=\skip62
-\f@nch@O@erf=\skip63
-\f@nch@O@olf=\skip64
-\f@nch@O@orf=\skip65
-)
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lastpage/lastpage.
 sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
@@ -428,50 +414,49 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \ar@mcellbox=\box51
 \extrarowheight=\dimen163
 \NC@list=\toks27
-\extratabsurround=\skip66
-\backup@length=\skip67
+\extratabsurround=\skip57
+\backup@length=\skip58
 \ar@cellbox=\box52
-)) (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/natbib/natbib.s
-ty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip68
-\bibsep=\skip69
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count281
-)
-(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tocbibind/tocbibin
-d.sty
-Package: tocbibind 2010/10/13 v1.5k extra ToC listings
-Package tocbibind Info: The document has section divisions on input line 50.
-
-Package tocbibind Note: Using section or other style headings.
-
-)
+))
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.st
 y
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip70
-\LTright=\skip71
-\LTpre=\skip72
-\LTpost=\skip73
-\LTchunksize=\count282
+\LTleft=\skip59
+\LTright=\skip60
+\LTpre=\skip61
+\LTpost=\skip62
+\LTchunksize=\count281
 \LTcapwidth=\dimen164
 \LT@head=\box53
 \LT@firsthead=\box54
 \LT@foot=\box55
 \LT@lastfoot=\box56
-\LT@cols=\count283
-\LT@rows=\count284
-\c@LT@tables=\count285
-\c@LT@chunks=\count286
+\LT@cols=\count282
+\LT@rows=\count283
+\c@LT@tables=\count284
+\c@LT@chunks=\count285
 \LT@p@ftn=\toks28
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titling/titling.st
 y
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip74
-\thanksmargin=\skip75
-\droptitle=\skip76
+\thanksmarkwidth=\skip63
+\thanksmargin=\skip64
+\droptitle=\skip65
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.
+sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip66
+\f@nch@O@elh=\skip67
+\f@nch@O@erh=\skip68
+\f@nch@O@olh=\skip69
+\f@nch@O@orh=\skip70
+\f@nch@O@elf=\skip71
+\f@nch@O@erf=\skip72
+\f@nch@O@olf=\skip73
+\f@nch@O@orf=\skip74
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.
 sty
@@ -486,27 +471,27 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen172
 \cmidrulekern=\dimen173
 \defaultaddspace=\dimen174
-\@cmidla=\count287
-\@cmidlb=\count288
+\@cmidla=\count286
+\@cmidlb=\count287
 \@aboverulesep=\dimen175
 \@belowrulesep=\dimen176
-\@thisruleclass=\count289
-\@lastruleclass=\count290
+\@thisruleclass=\count288
+\@lastruleclass=\count289
 \@thisrulewidth=\dimen177
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multirow.
 sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip77
-\multirow@cntb=\count291
-\multirow@dima=\skip78
+\multirow@colwidth=\skip75
+\multirow@cntb=\count290
+\multirow@dima=\skip76
 \bigstrutjot=\dimen178
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.st
 y
 \wrapoverhang=\dimen179
 \WF@size=\dimen180
-\c@WF@wrappedlines=\count292
+\c@WF@wrappedlines=\count291
 \WF@box=\box57
 \WF@everypar=\toks29
 Package: wrapfig 2003/01/31  v 3.6
@@ -515,7 +500,7 @@ Package: wrapfig 2003/01/31  v 3.6
 sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 \everycr=\toks30
-\minrowclearance=\skip79
+\minrowclearance=\skip77
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscap
 e.sty
@@ -533,16 +518,16 @@ Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
 sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box58
-\sift@deathcycles=\count293
+\sift@deathcycles=\count292
 \@vwid@loff=\dimen181
 \@vwid@roff=\dimen182
 )
-\c@taburow=\count294
-\tabu@nbcols=\count295
-\tabu@cnt=\count296
-\tabu@Xcol=\count297
-\tabu@alloc=\count298
-\tabu@nested=\count299
+\c@taburow=\count293
+\tabu@nbcols=\count294
+\tabu@cnt=\count295
+\tabu@Xcol=\count296
+\tabu@alloc=\count297
+\tabu@nested=\count298
 \tabu@target=\dimen183
 \tabu@spreadtarget=\dimen184
 \tabu@naturalX=\dimen185
@@ -558,7 +543,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@arstrutbox=\box60
 \tabu@hleads=\box61
 \tabu@vleads=\box62
-\tabu@cellskip=\skip80
+\tabu@cellskip=\skip78
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttable/thr
 eeparttable.sty
@@ -577,14 +562,14 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 ces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\TPTL@width=\skip81
+\TPTL@width=\skip79
 ) (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box64
 \UL@hyphenbox=\box65
-\UL@skip=\skip82
+\UL@skip=\skip80
 \UL@hook=\toks33
 \UL@height=\dimen192
-\UL@pe=\count300
+\UL@pe=\count299
 \UL@pixel=\dimen193
 \ULC@box=\box66
 Package: ulem 2019/11/18
@@ -594,25 +579,25 @@ Package: ulem 2019/11/18
 sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen195
-\c@nlinenum=\count301
+\c@nlinenum=\count300
 \TeXr@lab=\toks34
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count302
+\c@tracingmulticols=\count301
 \mult@box=\box67
 \multicol@leftmargin=\dimen196
-\c@unbalance=\count303
-\c@collectmore=\count304
-\doublecol@number=\count305
-\multicoltolerance=\count306
-\multicolpretolerance=\count307
+\c@unbalance=\count302
+\c@collectmore=\count303
+\doublecol@number=\count304
+\multicoltolerance=\count305
+\multicolpretolerance=\count306
 \full@width=\dimen197
 \page@free=\dimen198
 \premulticols=\dimen199
 \postmulticols=\dimen256
-\multicolsep=\skip83
-\multicolbaselineskip=\skip84
+\multicolsep=\skip81
+\multicolbaselineskip=\skip82
 \partial@page=\box68
 \last@line=\box69
 \maxbalancingoverflow=\dimen257
@@ -657,44 +642,59 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box108
 \@tempa=\box109
 \@tempa=\box110
-\c@minrows=\count308
-\c@columnbadness=\count309
-\c@finalcolumnbadness=\count310
+\c@minrows=\count307
+\c@columnbadness=\count308
+\c@finalcolumnbadness=\count309
 \last@try=\dimen258
 \multicolovershoot=\dimen259
 \multicolundershoot=\dimen260
 \mult@nat@firstbox=\box111
 \colbreak@box=\box112
-\mc@col@check@num=\count311
+\mc@col@check@num=\count310
 ) (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/hhline.sty
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
+\cslhangindent=\skip83
+\csllabelwidth=\skip84
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count311
+\calc@Bcount=\count312
+\calc@Adimen=\dimen261
+\calc@Bdimen=\dimen262
+\calc@Askip=\skip85
+\calc@Bskip=\skip86
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count313
+\calc@Cskip=\skip87
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count312
+\l__color_backend_stack_int=\count314
 \l__pdf_internal_box=\box113
 ) (./QP2_Front_Page.aux)
 \openout1 = `QP2_Front_Page.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
 
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epsto
 pdf-base.sty
@@ -707,7 +707,7 @@ df-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 106.
+Package hyperref Info: Link coloring OFF on input line 123.
 
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
@@ -721,11 +721,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count313
+\c@section@level=\count315
 )
-LaTeX Info: Redefining \ref on input line 106.
-LaTeX Info: Redefining \pageref on input line 106.
-LaTeX Info: Redefining \nameref on input line 106.
+LaTeX Info: Redefining \ref on input line 123.
+LaTeX Info: Redefining \pageref on input line 123.
+LaTeX Info: Redefining \nameref on input line 123.
 (./QP2_Front_Page.out) (./QP2_Front_Page.out)
 \@outlinefile=\write3
 \openout3 = `QP2_Front_Page.out'.
@@ -766,106 +766,106 @@ LaTeX Info: Redefining \nameref on input line 106.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 106.
-<Partner_logos.png, id=200, 747.9945pt x 162.6075pt>
+(lastpage)             ! on input line 123.
+<Partner_logos.png, id=188, 747.9945pt x 162.6075pt>
 File: Partner_logos.png Graphic file (type png)
 <use Partner_logos.png>
-Package pdftex.def Info: Partner_logos.png  used on input line 118.
+Package pdftex.def Info: Partner_logos.png  used on input line 135.
 (pdftex.def)             Requested size: 486.27055pt x 105.71098pt.
-<EU_logo.png, id=202, 190.46156pt x 46.67438pt>
+<EU_logo.png, id=190, 190.46156pt x 46.67438pt>
 File: EU_logo.png Graphic file (type png)
 <use EU_logo.png>
-Package pdftex.def Info: EU_logo.png  used on input line 137.
+Package pdftex.def Info: EU_logo.png  used on input line 154.
 (pdftex.def)             Requested size: 190.46979pt x 46.67638pt.
 [1
 
 {c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
 x.map} <./Partner_logos.png> <./EU_logo.png>]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 170--180
+Overfull \hbox (27.63237pt too wide) in alignment at lines 187--197
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 180--186
+Overfull \hbox (27.63237pt too wide) in alignment at lines 197--203
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 186--305
+Overfull \hbox (27.63237pt too wide) in alignment at lines 203--322
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 305--320
+Overfull \hbox (27.63237pt too wide) in alignment at lines 322--343
  [] [] 
  []
 
-<Forest21logo.png, id=213, 282.45525pt x 59.62276pt>
+<Forest21logo.png, id=200, 282.45525pt x 59.62276pt>
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 324.
+Package pdftex.def Info: Forest21logo.png  used on input line 347.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [1
 
  <./Forest21logo.png>]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 336--346
+Overfull \hbox (27.63237pt too wide) in alignment at lines 359--369
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 346--352
+Overfull \hbox (27.63237pt too wide) in alignment at lines 369--375
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 352--360
+Overfull \hbox (27.63237pt too wide) in alignment at lines 375--383
  [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 362.
+Package pdftex.def Info: Forest21logo.png  used on input line 385.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [2
 
 ] (./QP2_Front_Page.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
 .
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
 .
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-9.
+7.
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-9.
+7.
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 9.
+(Font)              <10.95> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 9.
+(Font)              <8> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 9.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+(Font)              <6> on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 48.
+Package pdftex.def Info: Forest21logo.png  used on input line 50.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [3
 
@@ -875,12 +875,12 @@ Package pdftex.def Info: Forest21logo.png  used on input line 48.
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 369.
+Package pdftex.def Info: Forest21logo.png  used on input line 392.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [4]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 375.
+Package pdftex.def Info: Forest21logo.png  used on input line 398.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [5
 
@@ -894,115 +894,126 @@ Package pdftex.def Info: Forest21logo.png  used on input line 375.
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 381.
+Package pdftex.def Info: Forest21logo.png  used on input line 403.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [6
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 387.
+Package pdftex.def Info: Forest21logo.png  used on input line 409.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [7
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 393.
+Package pdftex.def Info: Forest21logo.png  used on input line 415.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [8
 
 ]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
+52.
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (42.29068pt too wide) in paragraph at lines 454--469
+\T1/lmr/m/n/10.95 ment can-not find jobs, lead-ing to an un-em-ploy-ment rate o
+f 27.6% ([]http://www.statssa.gov.za/?m=2019).[].)
+ []
+
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 449.
+Package pdftex.def Info: Forest21logo.png  used on input line 497.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.449 \clearpage
-                 [1
+l.497 \end{itemize}
+                    [1
 
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 530.
+Package pdftex.def Info: Forest21logo.png  used on input line 540.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[2
+[2]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 621.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[3
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 567.
+Package pdftex.def Info: Forest21logo.png  used on input line 658.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[3]
+[4]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 572.
-(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[4
-
-]
-File: Forest21logo.png Graphic file (type png)
-<use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 578.
+Package pdftex.def Info: Forest21logo.png  used on input line 663.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [5
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 584.
+Package pdftex.def Info: Forest21logo.png  used on input line 678.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [6
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
-90.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
+86.
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 663.
+Package pdftex.def Info: Forest21logo.png  used on input line 759.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [7
+
 
 ] 
 AED: lastpage setting LastPage
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 665.
+Package pdftex.def Info: Forest21logo.png  used on input line 761.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [8] (./QP2_Front_Page.aux)
 Package rerunfilecheck Info: File `QP2_Front_Page.out' has not changed.
-(rerunfilecheck)             Checksum: C8E6CE440045C6C0F152311201AAC618;8467.
+(rerunfilecheck)             Checksum: 8A89045779FC14E52B357D1A5B8FE70C;8127.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 65 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12874 strings out of 480714
- 190261 string characters out of 5901854
- 522811 words of memory out of 5000000
- 29938 multiletter control sequences out of 15000+600000
- 440387 words of font info for 54 fonts, out of 8000000 for 9000
+ 12582 strings out of 480714
+ 187123 string characters out of 5901854
+ 517281 words of memory out of 5000000
+ 29646 multiletter control sequences out of 15000+600000
+ 445015 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,16n,66p,587b,3271s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,16n,66p,594b,2975s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dv
-ips/lm/lm-ec.enc}<c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1
-/public/lm/lmbx10.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fonts/
-type1/public/lm/lmbx12.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/f
-onts/type1/public/lm/lmr10.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-di
-st/fonts/type1/public/lm/lmr12.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texm
-f-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on QP2_Front_Page.pdf (17 pages, 314399 bytes).
+ips/lm/lm-ec.enc}{c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/d
+vips/lm/lm-ts1.enc}<c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
+e1/public/lm/lmbx10.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/font
+s/type1/public/lm/lmbx12.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist
+/fonts/type1/public/lm/lmr10.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-
+dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/te
+xmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/nilsk/AppData/Roaming/TinyT
+eX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on QP2_Front_Page.pdf (17 pages, 336586 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
- 423 compressed objects within 5 object streams
+ 455 PDF objects out of 1000 (max. 8388607)
+ 419 compressed objects within 5 object streams
  138 named destinations out of 1000 (max. 500000)
- 408 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 384 words of extra memory for PDF output out of 10000 (max. 10000000)
 
