@@ -28,6 +28,7 @@ header-includes:
   - \rfoot{\thepage} \fancypagestyle{plain}{\pagestyle{fancy}}
 
 bibliography: QP2.bib
+csl: apa.csl
 ---
 
 ```{r setup, include=FALSE}
@@ -148,6 +149,7 @@ preamble <- data.frame(Item = c("Project Number",
                                   "Forest21, Forest Eduaciton, Forest Training, Problem-Based Learning"))
 
 preamble <- flextable(preamble)
+preamble <- set_caption(preamble, "Project and Document Information")
 
 preamble <- height(preamble, height = .3) %>% 
   hrule(rule = "exact", part = "body")  
@@ -155,9 +157,8 @@ preamble <- height(preamble, height = .3) %>%
 preamble %>%  
   theme_vanilla() %>% # evt theme_zebra
   width(j=~Item,width=2) %>% 
-  width(j=~Value,width=5) %>%
-  set_caption("Project and Document Information") 
-  
+  width(j=~Value,width=5) 
+
 ```
 
 \renewcommand{\baselinestretch}{1.0}\normalsize
@@ -194,12 +195,13 @@ verhist %>%
 
 \clearpage
 
-# Executive Summary {-}
+\listoffigures
+\listoftables
+
 
 \clearpage
 
-\listoffigures
-\listoftables
+# Executive Summary {-}
 
 \clearpage
 
