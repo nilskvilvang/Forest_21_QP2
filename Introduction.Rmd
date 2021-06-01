@@ -5,7 +5,7 @@ header-includes:
   - \usepackage{float}
 
 bibliography: QP2.bib
-
+csl: apa.csl
 ---
 
 # Introduction
@@ -20,7 +20,7 @@ The project will address:
 
 -   Increasing levels of unemployment in South Africa.
 
-    According to Statistics SA, around 10 million South Africans who are actively looking for employment cannot find jobs, leading to an unemployment rate of 27.6% ([http://www.statssa.gov.za/?m=2019).](http://www.statssa.gov.za/?m=2019).) Youth are the most vulnerable in the South African labour market, with even university graduates in this age group having an unemployment rate of 31.0%. Forestry-related entrepreneurship can provide a partial solution to this problem, as young people have enormous potential for innovation and risk-taking, which can produce start-ups employing many people. To fully realize these opportunities embedded in forestry, HEIs should use their curricula to produce inquisitive graduates who can think in new ways, and who have the courage to meet and adapt to the challenges facing them an entrepreneurial mindset that is simultaneously mindful of sustainability.
+    According to Statistics SA, South Africa experiences around 32.5% unemployment rate [@statssa2021]. Youth are the most vulnerable in the South African labour market, with even university graduates in this age group having an unemployment rate of 31.0%. Forestry-related entrepreneurship can provide a partial solution to this problem, as young people have enormous potential for innovation and risk-taking, which can produce start-ups employing many people. To fully realize these opportunities embedded in forestry, HEIs should use their curricula to produce inquisitive graduates who can think in new ways, and who have the courage to meet and adapt to the challenges facing them an entrepreneurial mindset that is simultaneously mindful of sustainability.
 
 -   Foresters mitigating climate change.
 
@@ -28,7 +28,7 @@ The project will address:
 
 -   Foresters of 21st century, education shortcomings, and new teaching methods
 
-    There is substantial discrepancy between what the forestry industry in South Africa sees as the key skills for future foresters, and what is being taught in HEIs offering forestry. Several research papers highlight this, as @mgagaDoesTertiaryEducation2019: "Does tertiary education in South Africa equip professional foresters for the future?"
+    There is substantial discrepancy between what the forestry industry in South Africa sees as the key skills for future foresters, and what is being taught in HEIs offering forestry. Several research papers highlight this, as @längin2008 and @mgagaDoesTertiaryEducation2019.
 
 ### Project Coordinator
 

@@ -77,7 +77,7 @@ knitr::include_graphics("EU_logo.png")
 Disclaimer:\\
 The information in this document is provided "as is."\\
 No guarantee or warranty is given that the information is fit for any particular purpose.\\
-The content of this document reflects only the author's view.\\
+The content of this document reflects only the authors' view.\\
 The European Commission is not responsbile for any use that\\
 may be made of the information it contains.\\
 The users use the information at their sole risk and liability.

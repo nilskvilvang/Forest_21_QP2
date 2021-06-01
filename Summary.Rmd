@@ -4,5 +4,7 @@ output: pdf_document
 header-includes:
   - \usepackage{float}
 bibliography: QP2.bib
+csl: apa.csl
 ---
+
 # Summary
