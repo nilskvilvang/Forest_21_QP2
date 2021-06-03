@@ -72,7 +72,7 @@ Despite the huge potential, South Africa (SA) is having challenges to create for
 
 #### Wider Objective
 
-*Strengthening South African forestry HEIs capacity to provide work-life relevant and inclusive higher education for societal and environmental development.*
+> ***Strengthening South African forestry HEIs capacity to provide work-life relevant and inclusive higher education for societal and environmental development.***
 
 #### FOREST21 Specific Objectives
 
@@ -88,10 +88,34 @@ Despite the huge potential, South Africa (SA) is having challenges to create for
 
 ### Participating Organizations
 
+```{r participants, echo = FALSE}
+
+library(flextable)
+library(magrittr)
+
+set_flextable_defaults(fonts_ignore=TRUE) 
+
+participants <- data.frame(Institution = c("Fort Cox Agriculture and Forestry Training Institute", "Nelson Mandela University", "Tschwane University of Technology", "Stellenbosch University", "University of Venda", "Häme University of Applied Sciences", "Inland Norway University of Applied Sciences", "Aalto University"),                                
+                         Abbr = c("Fort Cox", "NMU", "TUT", "SU", "UNIVEN", "HAMK", "INN", "Aalto"),
+                         Description = c("Established in 1930, the only SA institution offering Diplomas in Forestry; visions is to be the leading center in sustainable agriculture and forestry by providing quality education and training in agriculture and forestry, by engaging to applied research and community outreach with final objective to improve livelihood in SA.", "Roots back to 1911, when the oldest forestry campus of SA was established to Tokai near Cape Town. Todau NMU, after several mergers and name changes, has a proud tradition of excellence and service to the forestry industry.", "Established in 2003 through several mergers; defines itself as a people’s university that makes knowledge work. Strategic Plan 2020-25 wants TUT learning to become a continuum of creation, innovation and technology transfer to serve the communities; to find authentic and enduring solutions to communities’ most pressing problems.", "The oldest university in South Africa; received full university status in 1918. SU wants to be research-intensive university which attracts outstanding students, employ talented staff and provide a world-class environment; a place connected to the world, while enriching and transforming local, continental and global communities.", "Opened in 1982 to cater for the then Homeland of Venda; since its establishment, the UNIVEN has experienced tremendous growth and change and to date the university has established itself as a national asset through its niche on problem oriented, project-based curriculum with a strength in nurturing under prepared students into nationally competitive graduates.", "Häme University of Applied Sciences (HAMK) is a multidisciplinary, workplace-orientated higher education institution. HAMK offers 27 Bachelor’s degree programmes, 10 Master’s degree programmes and professional teacher education. Ten of the degree programmes are taught in English.", "INN is a result of the 2017 merger of two academic institutions with long traditions. It now runs 6 campuses with a total of 16,000 students on a vast range of study programs, including 4 PhD programs.", "By merging three leading Finnish universities in 2010, Aalto was founded to work as a societally embedded research university. In a short space of time, Aalto University has since become a forerunner in our key areas. We are renowned for our sense of community and culture of entrepreneurship and innovation."))
+
+participants <- flextable(participants)
+participants <- set_caption(participants, "Participating Organizations")
+
+participants <- height(participants, height = .3) %>% 
+  hrule(rule = "exact", part = "body")  
+                       
+participants %>%  
+  theme_vanilla() %>% # evt theme_zebra
+  width(j=~Institution,width=1) %>% 
+  width(j=~Abbr,width=0.6) %>%
+  width(j=~Description, width = 5)
+  
+```
+
 ### Project Characteristics
 
 ### Work Packages
-
 
 ```{r WP, echo = FALSE}
 
@@ -189,7 +213,7 @@ library(magrittr)
 
 set_flextable_defaults(fonts_ignore=TRUE) 
 
-wp3details <- data.frame(Activities = c("oPAR-Quality Plan (QP) prepared and Quality Platform set up. QP defines scheduled quality assurance activities with objectives, roles, and responsibilities. Included HBRA/Gender Action Plan + Check list. Quality Management Platform used for data collection and reporting.", "Quality data collection and analysis.", "Web-based support for pedagogical and climate smart forestry development provided. All partners before and after capacity building workshops.", "Project QP and process used to upgrade Partner HEIs’ education quality management"),                                
+wp3details <- data.frame(Activities = c("PAR-Quality Plan (QP) prepared and Quality Platform set up. QP defines scheduled quality assurance activities with objectives, roles, and responsibilities. Included HBRA/Gender Action Plan + Check list. Quality Management Platform used for data collection and reporting.", "Quality data collection and analysis.", "Web-based support for pedagogical and climate smart forestry development provided. All partners before and after capacity building workshops.", "Project QP and process used to upgrade Partner HEIs’ education quality management"),                                
                         Time = c("By 8/21", "2-3/22 and 6-7/23", "9/23", "By 8/22."))
 
 wp3details <- flextable(wp3details)
@@ -212,7 +236,7 @@ library(magrittr)
 
 set_flextable_defaults(fonts_ignore=TRUE) 
 
-wp4details <- data.frame(Activities = c("Dissemination & Exploitation Plan (DEP) developed; Covers time from the project start beyond project exit. DEP guides dissemination during and at the end of the Project SMART indicators prepared and used for measuring D&E efficiency D&E Manager with Partners", "Internal Project information channels and working platforms established and in function, incl. HEIs students’ and staffs’ information", "Forestry South Africa (FSA) and Associate Partners heavily involved and support", "Project information to key stakeholders", "Publications (min 5) and conference papers (min 5)", "oFinal seminar: to present the Project results to a broader audience including public and private forestry sector, NGOs, student communities, and national & regional education managers"),                                
+wp4details <- data.frame(Activities = c("Dissemination & Exploitation Plan (DEP) developed; Covers time from the project start beyond project exit. DEP guides dissemination during and at the end of the Project SMART indicators prepared and used for measuring D&E efficiency D&E Manager with Partners", "Internal Project information channels and working platforms established and in function, incl. HEIs students’ and staffs’ information", "Forestry South Africa (FSA) and Associate Partners heavily involved and support", "Project information to key stakeholders", "Publications (min 5) and conference papers (min 5)", "Final seminar: to present the Project results to a broader audience including public and private forestry sector, NGOs, student communities, and national & regional education managers"),                                
                         Time = c("by 8/21", "1/21-12/23", "21-12/23 and beyond the Project exits", "", "by 11/23", "9/23"))
 
 wp4details <- flextable(wp4details)
@@ -251,14 +275,11 @@ wp5details %>%
   
 ```
 
-
 ### Regulatory Framework and References
 
 ### Structure for Project Work and Cooperation
 
 ### Key Project Deliverables, Milestones and Processes
-
-
 
 ## Definitions
 
