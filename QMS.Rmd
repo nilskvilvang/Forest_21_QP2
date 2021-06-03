@@ -7,7 +7,15 @@ bibliography: QP2.bib
 csl: apa.csl
 ---
 
-# Quality Management Strategy
+# Quality Management Strategy (QMS)
+
+The guiding principles of the project's QMS are openness, transparency, co-creation, initiative-taking of everyone and collaboration of all partners as well as shared leadership are the core principles of FOREST21.
+
+On its part, the project's quality management process creates space for everyone to excel through everyone's active role, empowerment, and ownership. This extends to the role of students, who following the key principle of PBL, are given a sense of ownership of their personal learning process. The project activities are strongly linked to each other, each activity builds on the previous one and contributes to the next, following the cycle model of development.
+
+The detailed Quality Plan (QP) is developed to specify the practices, tools, and techniques to be applied in the quality management process to ensure that the Project will constantly strive towards the set objectives regarding the project's scope, schedule and cost and takes corrective action timely. The comprehensive QP includes detailed indicators and schedules, data collection plans, metrics for measuring the quality as well as roles and responsibilities for each partner in the quality process. Also dispute settlement process is included.
+
+Data collection methods include printed and online questionnaires for faculty staff, students and industry stakeholders, feedback from workshops, training and student fieldwork, WP reports, minutes of meetings, dissemination materials, and other additional data.
 
 ## Scope and Objective of the Deliverable
 
@@ -29,9 +37,9 @@ csl: apa.csl
 
 ### Management and Internal Communication Tools
 
-## Quality Assurance
+## Quality Assurance (QA)
 
-### Interim Managemnet Reports
+### Interim Management Reports
 
 #### Finished, Ongoing and Planned Activities
 
@@ -68,6 +76,16 @@ csl: apa.csl
 ### Files, Archives and Collaborative Tools
 
 ## Quality Roles and Responsibilities
+
+-   The QP preparation & quality management led by the Quality Manager (QM), who is the INN's Local Coordinator (LC).
+
+-   WP Quality is co-led by INN and SU
+
+-   LCs are responsible for WP data collection following the QP guidance.
+
+-   QM together with the LC SU and the Quality Core Team (QCT) provide a survey report & analyses after completion of each WP and this is presented for the Project Management Team (PMT) for its guidance and decisions on corrective actions if so needed.
+
+-   Prior to Interim and Final Reports and prior to mid-term and final evaluation, QM leads the process of compiling all quality-related material needed for the use of the external evaluator and after the evaluation QM together with co-lead LCs, and the QCT lead the process of compiling the findings including tools and recommendations to a project's internal quality evaluation and guidance.
 
 ### Author/Authoring Unit Level
 

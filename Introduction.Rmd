@@ -10,7 +10,13 @@ csl: apa.csl
 
 # Introduction
 
-## Foreword
+## About FOREST21
+
+FOREST21 is a joint project for strengthening capacity in South African higher education in forestry. The project is implemented in collaboration of five higher education institutions (HEIs) in South Africa that have forestry curricula or will start teaching forestry.
+
+Promoting climate-smart forestry and entrepreneurial innovativeness in forestry education will lead to job creation as well as mitigation of climate change. FOREST21 is implemented through reforming the curricula in forestry entrepreneurship education to equip graduates with problem-solving skills, an entrepreneurial mindset and climate-smart thinking.
+
+Problem-based learning (PBL) methods and students-centred teaching are in the centre of the project. Students learn through solving real-life business challenges on the field in international teams. FOREST21 requires close collaboration with the industrial sector as well as teachers and the managerial staff in partner HEIs to find the practices in the local context.
 
 ## Project Description
 
@@ -74,15 +80,142 @@ Despite the huge potential, South Africa (SA) is having challenges to create for
 
 > ***Strengthening South African forestry HEIs capacity to provide work-life relevant and inclusive higher education for societal and environmental development.***
 
+```{r widerobj, echo = FALSE}
+
+library(flextable)
+library(magrittr)
+
+set_flextable_defaults(fonts_ignore=TRUE) 
+
+widerobj <- data.frame(Indicators = c("Increased role of HEIs in climate change dialogue, innovation and societal impact", "Recognized expert role of teachers", "Improved employment and widened career opportunities of graduates"),                                
+                         Measurement = c("Public and private resources", "Diversified career opportunities for recognized expert teachers", "Publicity (interviews, presentations, expert opinions) \n Employment statistics"))
+
+widerobj <- flextable(widerobj)
+widerobj <- set_caption(widerobj, "Wider Objective")
+
+widerobj <- height(widerobj, height = .3) %>% 
+  hrule(rule = "exact", part = "body")  
+                       
+widerobj %>%  
+  theme_vanilla() %>% # evt theme_zebra
+  width(j=~Indicators,width=3.5) %>% 
+  width(j=~Measurement,width=3.5)
+  
+```
+
 #### FOREST21 Specific Objectives
 
-1.  Utilization of new climate smart forestry curricula with incorporation of entrepreneurial skills and metacognitive competences
+1.  *Utilization of new climate smart forestry curricula with incorporation of entrepreneurial skills and metacognitive competences*
 
-2.  Improved student-centered teaching and learning methods by introducing problem-based learning
+```{r specobj1, echo = FALSE}
 
-3.  Actively cooperating network-based learning ecosystem with academia and societal/industry partners in South African context
+library(flextable)
+library(magrittr)
 
-4.  Strengthened HEI capacity to further contextualize and develop curricula, pedagogical methodology and learning ecosystems through national and international partnerships
+set_flextable_defaults(fonts_ignore=TRUE) 
+
+specobj1 <- data.frame(Indicators = c("Number of new/updated courses integrated in partner universities \n \n Number of teachers and faculty trained in climate smart forestry courses \n \n Increased knowledge of teachers on climate-smart forestry \n \n Student satisfaction on courses"),                                
+                       Measurement = c("Project progress reports \n \n Workshop statistics \n \n Self-assessments \n \n Student feedback reports"),
+                       Risks = c("Commitment from university leadership and policy makers \n \n Interest and motivation of teachers and faculty \n \n Students active participation"),
+                       Mitigation = c("Open, incl face-to-face, communication and actively involving \n HEIs management and academic leaders \n Teachers and faculty staff \n Students"))
+
+specobj1 <- flextable(specobj1)
+specobj1 <- set_caption(specobj1, "Specific Objective 1")
+
+specobj1 <- height(specobj1, height = .3) %>% 
+  hrule(rule = "exact", part = "body")  
+                       
+specobj1 %>%  
+  theme_vanilla() %>% # evt theme_zebra
+  width(j=~Indicators,width=1.68) %>% 
+  width(j=~Measurement,width=1.68) %>%
+  width(j=~Risks,width=1.68) %>%
+  width(j=~Mitigation,width=1.68)
+```
+
+2.  *Improved student-centered teaching and learning methods by introducing problem-based learning*
+
+```{r specobj2, echo = FALSE}
+
+library(flextable)
+library(magrittr)
+
+set_flextable_defaults(fonts_ignore=TRUE) 
+
+specobj2 <- data.frame(Indicators = c("Number of teachers /faculty staff trained in PBL methodology \n \n Number of students trained following PBL methods \n \n Increased pedagogical practices of teachers/faculty staff \n \n Graduates increased innovation and problem-solving skills \n \n New training materials developed"),                                
+                       Measurement = c("Lists of training participants \n \n Course statistics \n \n Staff capacity assessment reports \n \n Student feedback reports \n \n Course performance evaluation \n \n Printed and digital teaching materials \n \n Case study reports and feedback from case-owners"),
+                       Risks = c("Personal engagement and motivation of teachers/faculty staff \n \n Change of staff during the project \n \n Students readiness and motivation for new learning practices \n \n Delays in production of PBL training materials \n \n Commitment and active involvement of societal/industry partners"),
+                       Mitigation = c("Guidance and support from project management and associate partners \n \n Support and guidance to teachers/faculty staff in the transformation processes \n \n Sharing information for institutionalizing new competences and practices \n \n Mentoring and coaching of students \n \n Active quality management"))
+
+specobj2 <- flextable(specobj2)
+specobj2 <- set_caption(specobj2, "Specific Objective 2")
+
+specobj2 <- height(specobj2, height = .3) %>% 
+  hrule(rule = "exact", part = "body")  
+                       
+specobj2 %>%  
+  theme_vanilla() %>% # evt theme_zebra
+  width(j=~Indicators,width=1.68) %>% 
+  width(j=~Measurement,width=1.68) %>%
+  width(j=~Risks,width=1.68) %>%
+  width(j=~Mitigation,width=1.68)
+```
+
+3.  *Actively cooperating network-based learning ecosystem with academia and societal/industry partners in South African context*
+
+```{r specobj3, echo = FALSE}
+
+library(flextable)
+library(magrittr)
+
+set_flextable_defaults(fonts_ignore=TRUE) 
+
+specobj3 <- data.frame(Indicators = c("Number of collaboratively implemented field challenges \n \n Number of collaborating partnerships \n \n Feedback from the partners on the relevance of the cooperation \n \n Feedback from education policy authorities"),                                
+                       Measurement = c("University records \n \n Discussions and reports"),
+                       Risks = c("HEIs and teachers’ capacity and interest to develop expertise for industry cooperation \n \n Education authorities’ commitment to network-based learning"),
+                       Mitigation = c("Active dialogue on the cooperation benefits \n \n Active dialogue with HEIs leadership, associate partners and education authorities \n \n Sharing knowledge and experiences"))
+
+specobj3 <- flextable(specobj3)
+specobj3 <- set_caption(specobj3, "Specific Objective 3")
+
+specobj3 <- height(specobj3, height = .3) %>% 
+  hrule(rule = "exact", part = "body")  
+                       
+specobj3 %>%  
+  theme_vanilla() %>% # evt theme_zebra
+  width(j=~Indicators,width=1.68) %>% 
+  width(j=~Measurement,width=1.68) %>%
+  width(j=~Risks,width=1.68) %>%
+  width(j=~Mitigation,width=1.68)
+```
+
+4.  *Strengthened HEI capacity to further contextualize and develop curricula, pedagogical methodology and learning ecosystems through national and international partnerships*
+
+```{r specobj4, echo = FALSE}
+
+library(flextable)
+library(magrittr)
+
+set_flextable_defaults(fonts_ignore=TRUE) 
+
+specobj4 <- data.frame(Indicators = c("Forestry21 teacher network created and active \n \n Further development of curricula incorporated in HEIs strategies \n \n Mechanism established to continue collaboration within South African HEIs \n \n Number of publications and articles \n \n Cooperation mechanisms set up for national and international partnerships"),                                
+                       Measurement = c("Network activity \n \n HEIs strategies and policies \n \n Experiences of teachers, faculty staff and management \n \n Publications, articles \n \n Cooperation MoUs and partnership agreements"),
+                       Risks = c("Teachers commitment and limited time resources \n \n Resources for network management \n \n Continuous commitment and cooperation of HEIs, authorities and industry stakeholders"),
+                       Mitigation = c("Encouraging active participation of individuals \n \n Participatory project management encourages to cooperation \n \n Dissemination of best practices"))
+
+specobj4 <- flextable(specobj4)
+specobj4 <- set_caption(specobj4, "Specific Objective 4")
+
+specobj4 <- height(specobj4, height = .3) %>% 
+  hrule(rule = "exact", part = "body")  
+                       
+specobj4 %>%  
+  theme_vanilla() %>% # evt theme_zebra
+  width(j=~Indicators,width=1.68) %>% 
+  width(j=~Measurement,width=1.68) %>%
+  width(j=~Risks,width=1.68) %>%
+  width(j=~Mitigation,width=1.68)
+```
 
 ### Project Coordinator
 
@@ -183,6 +316,32 @@ wp1details %>%
   
 ```
 
+```{r wp1obj, echo = FALSE}
+
+library(flextable)
+library(magrittr)
+
+set_flextable_defaults(fonts_ignore=TRUE) 
+
+wp1obj <- data.frame(Indicators = c("Feasibility study on current competences and knowledge needs on individual and institutional levels \n \n Number of new/revised courses \n \n Number of courses accredited in partner HEIs \n \n Capacity assessments during curricula development workshop \n \n Key stakeholders identified"),                                
+                       Measurement = c("Feasibility study report \n \n Project progress reports \n \n Course descriptions \n \n Course accreditation data \n \n Assessment reports \n \n Workshop reports"),
+                       Risks = c("HEIs faculty commitment and participation in the survey \n \n Involvement of students to the feasibility study \n \n HEIs faculty and management commitment in course development and accreditation \n \n Personal interest and engagement of teachers/staff \n \n Interest and commitment of societal/industry partners"),
+                       Mitigation = c("Awareness creation among key stakeholders \n \n Transparent and participatory working methods to create and keep commitment and ownership to the project \n \n Support of associate partners \n \n Clear selection processes to workshops and trainings \n \n Awareness creation among key stakeholders"))
+
+wp1obj <- flextable(wp1obj)
+wp1obj <- set_caption(wp1obj, "WP 1 - Details")
+
+wp1obj <- height(wp1obj, height = .3) %>% 
+  hrule(rule = "exact", part = "body")  
+                       
+wp1obj %>%  
+  theme_vanilla() %>% # evt theme_zebra
+  width(j=~Indicators,width=1.68) %>% 
+  width(j=~Measurement,width=1.68) %>%
+  width(j=~Risks,width=1.68) %>%
+  width(j=~Mitigation,width=1.68)
+```
+
 ```{r WP2details, echo = FALSE}
 
 library(flextable)
@@ -204,6 +363,32 @@ wp2details %>%
   width(j=~Activities,width=5) %>% 
   width(j=~Time,width=2)
   
+```
+
+```{r wp2obj, echo = FALSE}
+
+library(flextable)
+library(magrittr)
+
+set_flextable_defaults(fonts_ignore=TRUE) 
+
+wp2obj <- data.frame(Indicators = c("Number of teachers/faculty staff trained \n \n Assessment of teachers and faculty competences \n \n Climate-smart forestry workshop \n \n Two pedagogical training workshops organized \n \n New training materials developed \n \n Student challenges developed \n \n Number of trained students \n \n Employment level of students \n \n Network mechanisms set up \n \n Number of partnerships and collaboratively implemented field challenges \n \n FOREST21 teacher manual developed"),                                
+                       Measurement = c("List of training participants \n \n Staff capacity assessment report \n \n Workshop report \n \n Publications, digital materials \n \n Course statistics, case study reports \n \n Employment statistics \n \n Project progress reports \n \n Teacher manual"),
+                       Risks = c("Student-centered PBL methodology fits to cultural educational setting \n \n Jointly prepared selection criteria for teachers and faculty staff in place \n \n Appropriate content/level of student challenges \n \n Jointly prepared selection criteria for students \n \n Appropriate communication and scheduling of international work teams \n \n Interest and commitment of societal/industry partners"),
+                       Mitigation = c("Emphasize the contextualization of the methodology \n \n Careful selection of teachers and staff for training \n \n Adequate planning for student challenge development and scheduling \n \n Careful selection of students \n \n Information sharing with partners in culturally appropriate way"))
+
+wp2obj <- flextable(wp2obj)
+wp2obj <- set_caption(wp1obj, "WP 2 - Details")
+
+wp2obj <- height(wp2obj, height = .3) %>% 
+  hrule(rule = "exact", part = "body")  
+                       
+wp2obj %>%  
+  theme_vanilla() %>% # evt theme_zebra
+  width(j=~Indicators,width=1.68) %>% 
+  width(j=~Measurement,width=1.68) %>%
+  width(j=~Risks,width=1.68) %>%
+  width(j=~Mitigation,width=1.68)
 ```
 
 ```{r WP3details, echo = FALSE}
@@ -229,6 +414,32 @@ wp3details %>%
   
 ```
 
+```{r wp3obj, echo = FALSE}
+
+library(flextable)
+library(magrittr)
+
+set_flextable_defaults(fonts_ignore=TRUE) 
+
+wp3obj <- data.frame(Indicators = c("Quality plan in place \n \n Data collected and analyzed \n \n Quality plan followed \n \n Feedback from faculty"),                                
+                       Measurement = c(""),
+                       Risks = c("Project supports good models for quality monitoring, evaluation and learning"),
+                       Mitigation = c("Adequate planning, reflection, learning and taking action"))
+
+wp3obj <- flextable(wp3obj)
+wp3obj <- set_caption(wp3obj, "WP 3 - Details")
+
+wp3obj <- height(wp3obj, height = .3) %>% 
+  hrule(rule = "exact", part = "body")  
+                       
+wp3obj %>%  
+  theme_vanilla() %>% # evt theme_zebra
+  width(j=~Indicators,width=1.68) %>% 
+  width(j=~Measurement,width=1.68) %>%
+  width(j=~Risks,width=1.68) %>%
+  width(j=~Mitigation,width=1.68)
+```
+
 ```{r WP4details, echo = FALSE}
 
 library(flextable)
@@ -250,6 +461,32 @@ wp4details %>%
   width(j=~Activities,width=5) %>% 
   width(j=~Time,width=2)
   
+```
+
+```{r wp4obj, echo = FALSE}
+
+library(flextable)
+library(magrittr)
+
+set_flextable_defaults(fonts_ignore=TRUE) 
+
+wp4obj <- data.frame(Indicators = c("Dissemination and exploitation plan in place and action \n \n Use of project website, social media, brochures, leaflets, newsletters \n \n Meetings, personal communication \n \n Publications, presentations \n \n Final workshop organized"),                                
+                       Measurement = c("Project progress reports \n \n Monitoring and evaluation reports"),
+                       Risks = c("Appropriate quality of dissemination materials and actions"),
+                       Mitigation = c("Timely dissemination and adequate resources by partner HEIs \n \n FSA’s strong supporting role in SA dissemination"))
+
+wp4obj <- flextable(wp4obj)
+wp4obj <- set_caption(wp4obj, "WP 4 - Details")
+
+wp4obj <- height(wp4obj, height = .3) %>% 
+  hrule(rule = "exact", part = "body")  
+                       
+wp4obj %>%  
+  theme_vanilla() %>% # evt theme_zebra
+  width(j=~Indicators,width=1.68) %>% 
+  width(j=~Measurement,width=1.68) %>%
+  width(j=~Risks,width=1.68) %>%
+  width(j=~Mitigation,width=1.68)
 ```
 
 ```{r WP5details, echo = FALSE}
@@ -275,11 +512,77 @@ wp5details %>%
   
 ```
 
+```{r wp5obj, echo = FALSE}
+
+library(flextable)
+library(magrittr)
+
+set_flextable_defaults(fonts_ignore=TRUE) 
+
+wp5obj <- data.frame(Indicators = c("Project Management Team (PBT), Project Advisory Board (PAB), needs-based core teams working"),                                
+                       Measurement = c("Project progress reports \n \n Minutes of meetings \n \n Management guideline \n \n Kick-off workshop report \n \n Mid-term review, final evaluation, audit reports \n \n Interim and final reports"),
+                       Risks = c("Ability for cross-cultural team working and co-creation"),
+                       Mitigation = c("Jointly agreed work methods \n \n Flexibility to tackle emerging issues and needs"))
+
+wp5obj <- flextable(wp5obj)
+wp5obj <- set_caption(wp5obj, "WP 5 - Details")
+
+wp5obj <- height(wp5obj, height = .3) %>% 
+  hrule(rule = "exact", part = "body")  
+                       
+wp5obj %>%  
+  theme_vanilla() %>% # evt theme_zebra
+  width(j=~Indicators,width=1.68) %>% 
+  width(j=~Measurement,width=1.68) %>%
+  width(j=~Risks,width=1.68) %>%
+  width(j=~Mitigation,width=1.68)
+```
+
 ### Regulatory Framework and References
 
 ### Structure for Project Work and Cooperation
 
 ### Key Project Deliverables, Milestones and Processes
+
+### Expected Tangible Results
+
+Tangible results of FOREST21 are the following:
+
+-   SU: Updated curriculum for BSc Forestry and Natural Resource Sciences
+
+-   Fort Cox: New forestry curriculum: Advanced Diploma in Forestry Management
+
+-   NMU: Updated curriculum for
+
+    -   BSc Honours in Natural Resource Management (NQF Level 8)
+
+    -   BSc Honoours in Natural Resource Management (NQF Level 7)
+
+-   TUT: New curriculum: Forestry Management
+
+-   UNIVEN: Updated curriculum: Bachelor of Science in Forestry
+
+-   Number of trained/trainers/students:
+
+    -   Pedagogical training: Number of teaching staff/faculty trained: 50
+
+    -   Number of Programme Country HEI trainers: 12
+
+    -   Climate-smart forestry training: Number of teaching staff/faculty trained: 25
+
+    -   Number of students participating to the methodology contextualization/field challenges: 195 total
+
+-   Industry Partnerships signed: Each Partner HEI to sign min. 5 societal/industry partnerships (total 25)
+
+-   Reports and publications
+
+    -   Feasibility study Report
+
+    -   PBL-FORESTRY21 Teacher Training Manual (best practices)
+
+    -   Min. 5 peer reviewed papers and min. 5 conference papers published
+
+-   Network established: PBL-FORESTRY21 Expert Network with min. 50 members established and in function
 
 ## Definitions
 
@@ -288,5 +591,7 @@ wp5details %>%
 ### Quality Planning
 
 ### Quality Assurance
+
+Quality assurance is an ongoing effort to address improvements of the deliverables over time through small, incremental changes or through system-level changes if so needed. The data collection timeline follows the cycles of WPs.
 
 ### Quality Control
