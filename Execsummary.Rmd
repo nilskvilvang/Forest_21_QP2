@@ -1,0 +1,25 @@
+---
+title: " "
+output: pdf_document
+header-includes:
+  - \usepackage{float}
+  - \usepackage{pdflscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+
+bibliography: QP2.bib
+csl: apa.csl
+---
+
+The scope of this Quality Plan is to provide a reference point for all quality work undertaken during the FOREST21 project, and to ensure effective and goal-oriented collaboration.It is developed in the scope of Work Package 3.1: "PAR-Quality Plan (QP) prepared and Quality Platform established."
+
+This Quality Plan details how the quality aspect is taken into account in the different processes and activities in the FOREST21 project. Its ultimate aim is to secure that the objectives of the project are reached to the stakeholders' expectations and within the resources available to the project. The quality work in FOREST21 is integrated into all work carried out in the project - through planning, assurance, control and improvement. 
+
+- Quality Management refers to the total work of all partners to assure the timely and budgetary attainment of the desired project outcomes. 
+- Quality Planning involves stating guidelines and templates for meetings, deliverable and publications. 
+- Quality Assurance focuses on responsibilities and management reporting.
+- Quality Control refers to internal and external review and reporting procedures.
+- Quality Improvement states how feedback is implemented through risk management and continuous quality work
+
+The Quality Plan is effective throughout the project. It is subject to improvement and revisions by the Project Management Team, based on evaluation from the Advisory Board or the participating and associated project partners. 
+

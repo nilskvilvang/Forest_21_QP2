@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.3)  5 JUN 2021 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.3)  5 JUN 2021 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -444,6 +444,16 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmargin=\skip64
 \droptitle=\skip65
 )
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pagecolor/pagecolo
+r.sty
+Package: pagecolor 2017/05/29 v1.0i Provides thepagecolor (HMM)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.s
+ty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.
 sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
@@ -677,24 +687,24 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 ) (./QP2_Front_Page.aux)
 \openout1 = `QP2_Front_Page.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
 
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epsto
 pdf-base.sty
@@ -707,7 +717,7 @@ df-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 126.
+Package hyperref Info: Link coloring OFF on input line 128.
 
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
@@ -723,9 +733,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count316
 )
-LaTeX Info: Redefining \ref on input line 126.
-LaTeX Info: Redefining \pageref on input line 126.
-LaTeX Info: Redefining \nameref on input line 126.
+LaTeX Info: Redefining \ref on input line 128.
+LaTeX Info: Redefining \pageref on input line 128.
+LaTeX Info: Redefining \nameref on input line 128.
 (./QP2_Front_Page.out) (./QP2_Front_Page.out)
 \@outlinefile=\write3
 \openout3 = `QP2_Front_Page.out'.
@@ -766,60 +776,60 @@ LaTeX Info: Redefining \nameref on input line 126.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 126.
-<Partner_logos.png, id=213, 747.9945pt x 162.6075pt>
+(lastpage)             ! on input line 128.
+<Partner_logos.png, id=217, 747.9945pt x 162.6075pt>
 File: Partner_logos.png Graphic file (type png)
 <use Partner_logos.png>
-Package pdftex.def Info: Partner_logos.png  used on input line 138.
+Package pdftex.def Info: Partner_logos.png  used on input line 143.
 (pdftex.def)             Requested size: 486.27055pt x 105.71098pt.
-<EU_logo.png, id=215, 190.46156pt x 46.67438pt>
+<EU_logo.png, id=219, 190.46156pt x 46.67438pt>
 File: EU_logo.png Graphic file (type png)
 <use EU_logo.png>
-Package pdftex.def Info: EU_logo.png  used on input line 157.
+Package pdftex.def Info: EU_logo.png  used on input line 162.
 (pdftex.def)             Requested size: 190.46979pt x 46.67638pt.
 [1
 
 {c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
 x.map} <./Partner_logos.png> <./EU_logo.png>]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 190--200
+Overfull \hbox (27.63237pt too wide) in alignment at lines 197--207
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 200--206
+Overfull \hbox (27.63237pt too wide) in alignment at lines 207--213
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 206--346
+Overfull \hbox (27.63237pt too wide) in alignment at lines 213--353
  [] [] 
  []
 
-<Forest21logo.png, id=225, 282.45525pt x 59.62276pt>
+<Forest21logo.png, id=229, 282.45525pt x 59.62276pt>
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 350.
+Package pdftex.def Info: Forest21logo.png  used on input line 357.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [1
 
  <./Forest21logo.png>]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 362--372
+Overfull \hbox (27.63237pt too wide) in alignment at lines 369--379
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 372--378
+Overfull \hbox (27.63237pt too wide) in alignment at lines 379--385
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 378--386
+Overfull \hbox (27.63237pt too wide) in alignment at lines 385--393
  [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 388.
+Package pdftex.def Info: Forest21logo.png  used on input line 395.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [2
 
@@ -870,7 +880,7 @@ Package pdftex.def Info: Forest21logo.png  used on input line 52.
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 395.
+Package pdftex.def Info: Forest21logo.png  used on input line 402.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [4] (./QP2_Front_Page.lof)
 \tf@lof=\write5
@@ -882,370 +892,370 @@ Package pdftex.def Info: Forest21logo.png  used on input line 395.
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 400.
+Package pdftex.def Info: Forest21logo.png  used on input line 407.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [5
 
 ]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
+30.
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 406.
+Package pdftex.def Info: Forest21logo.png  used on input line 451.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [6
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 412.
+Package pdftex.def Info: Forest21logo.png  used on input line 457.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [7
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 418.
+Package pdftex.def Info: Forest21logo.png  used on input line 463.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [8
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-74.
-(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 509.
+Package pdftex.def Info: Forest21logo.png  used on input line 554.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.509   F
+l.554   F
          oresters of 21st century, education shortcomings, and new teaching [1
 
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 566.
+Package pdftex.def Info: Forest21logo.png  used on input line 611.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [2]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 651.
+Package pdftex.def Info: Forest21logo.png  used on input line 696.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [3]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 701--711
+Overfull \hbox (27.63237pt too wide) in alignment at lines 746--756
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 711--717
+Overfull \hbox (27.63237pt too wide) in alignment at lines 756--762
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 717--737
+Overfull \hbox (27.63237pt too wide) in alignment at lines 762--782
  [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 737.
+Package pdftex.def Info: Forest21logo.png  used on input line 782.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [4]
-Overfull \hbox (15.39467pt too wide) in alignment at lines 757--767
+Overfull \hbox (15.39467pt too wide) in alignment at lines 802--812
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 767--773
+Overfull \hbox (15.39467pt too wide) in alignment at lines 812--818
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 773--781
+Overfull \hbox (15.39467pt too wide) in alignment at lines 818--826
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 798--808
+Overfull \hbox (15.39467pt too wide) in alignment at lines 843--853
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 808--814
+Overfull \hbox (15.39467pt too wide) in alignment at lines 853--859
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 814--822
+Overfull \hbox (15.39467pt too wide) in alignment at lines 859--867
  [] [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 822.
+Package pdftex.def Info: Forest21logo.png  used on input line 867.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [5]
-Overfull \hbox (15.39467pt too wide) in alignment at lines 839--849
+Overfull \hbox (15.39467pt too wide) in alignment at lines 884--894
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 849--855
+Overfull \hbox (15.39467pt too wide) in alignment at lines 894--900
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 855--863
+Overfull \hbox (15.39467pt too wide) in alignment at lines 900--908
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 881--891
+Overfull \hbox (15.39467pt too wide) in alignment at lines 926--936
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 891--897
+Overfull \hbox (15.39467pt too wide) in alignment at lines 936--942
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 897--905
+Overfull \hbox (15.39467pt too wide) in alignment at lines 942--950
  [] [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 905.
+Package pdftex.def Info: Forest21logo.png  used on input line 950.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [6]
-Overfull \hbox (2.7248pt too wide) in alignment at lines 920--930
+Overfull \hbox (2.7248pt too wide) in alignment at lines 965--975
  [] [] [] 
  []
 
 
-Overfull \hbox (2.7248pt too wide) in alignment at lines 930--936
+Overfull \hbox (2.7248pt too wide) in alignment at lines 975--981
  [] [] [] 
  []
 
 
-Overfull \hbox (2.7248pt too wide) in alignment at lines 936--986
+Overfull \hbox (2.7248pt too wide) in alignment at lines 981--1031
  [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 986.
+Package pdftex.def Info: Forest21logo.png  used on input line 1031.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [7]
-Overfull \hbox (6.7248pt too wide) in alignment at lines 1000--1010
+Overfull \hbox (6.7248pt too wide) in alignment at lines 1050--1060
  [] [] [] [] 
  []
 
 
-Overfull \hbox (6.7248pt too wide) in alignment at lines 1010--1016
+Overfull \hbox (6.7248pt too wide) in alignment at lines 1060--1066
  [] [] [] [] 
  []
 
 
-Overfull \hbox (6.7248pt too wide) in alignment at lines 1016--1048
+Overfull \hbox (6.7248pt too wide) in alignment at lines 1066--1098
  [] [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1048.
+Package pdftex.def Info: Forest21logo.png  used on input line 1098.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [8]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1056--1066
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1106--1116
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1066--1072
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1116--1122
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1072--1092
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1122--1142
  [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1100--1110
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1150--1160
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1110--1116
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1160--1166
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1116--1124
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1166--1174
  [] [] [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1132--1142
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1182--1192
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1142--1148
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1192--1198
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1148--1198
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1198--1248
  [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1198.
+Package pdftex.def Info: Forest21logo.png  used on input line 1248.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [9]
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1206--1216
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1256--1266
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1216--1222
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1266--1272
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1222--1230
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1272--1280
  [] [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1230.
+Package pdftex.def Info: Forest21logo.png  used on input line 1280.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [10]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1238--1248
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1288--1298
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1248--1254
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1298--1304
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1254--1280
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1304--1330
  [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1288--1298
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1338--1348
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1298--1304
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1348--1354
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1304--1312
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1354--1362
  [] [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1312.
+Package pdftex.def Info: Forest21logo.png  used on input line 1362.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [11]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1320--1330
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1370--1380
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1330--1336
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1380--1386
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1336--1374
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1386--1424
  [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1382--1392
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1432--1442
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1392--1398
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1442--1448
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1398--1406
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1448--1456
  [] [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1406.
+Package pdftex.def Info: Forest21logo.png  used on input line 1456.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [12]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1414--1424
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1464--1474
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1424--1430
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1474--1480
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1430--1456
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1480--1506
  [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1464--1474
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1514--1524
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1474--1480
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1524--1530
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1480--1488
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1530--1538
  [] [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1505.
+Package pdftex.def Info: Forest21logo.png  used on input line 1555.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [13]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1590.
+Package pdftex.def Info: Forest21logo.png  used on input line 1640.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [14]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1714.
+Package pdftex.def Info: Forest21logo.png  used on input line 1764.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [15
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1854.
+Package pdftex.def Info: Forest21logo.png  used on input line 1904.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [16
 
@@ -1254,7 +1264,7 @@ Package pdftex.def Info: Forest21logo.png  used on input line 1854.
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1970.
+Package pdftex.def Info: Forest21logo.png  used on input line 2020.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [17
 
@@ -1263,7 +1273,7 @@ Package pdftex.def Info: Forest21logo.png  used on input line 1970.
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2053.
+Package pdftex.def Info: Forest21logo.png  used on input line 2106.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [18
 
@@ -1271,97 +1281,102 @@ Package pdftex.def Info: Forest21logo.png  used on input line 2053.
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2137.
+Package pdftex.def Info: Forest21logo.png  used on input line 2110.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[19
+[19]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 2194.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[20
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2208.
-(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[20]
-File: Forest21logo.png Graphic file (type png)
-<use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2220.
+Package pdftex.def Info: Forest21logo.png  used on input line 2265.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [21]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2225.
+Package pdftex.def Info: Forest21logo.png  used on input line 2277.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[22
-
-]
+[22]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2250.
+Package pdftex.def Info: Forest21logo.png  used on input line 2282.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [23
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2255.
+Package pdftex.def Info: Forest21logo.png  used on input line 2305.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [24
 
 ]
-Overfull \hbox (7.26994pt too wide) in alignment at lines 2263--2273
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 2310.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[25
+
+]
+Overfull \hbox (7.26994pt too wide) in alignment at lines 2318--2328
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (7.26994pt too wide) in alignment at lines 2273--2279
+Overfull \hbox (7.26994pt too wide) in alignment at lines 2328--2334
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (7.26994pt too wide) in alignment at lines 2279--2323
+Overfull \hbox (7.26994pt too wide) in alignment at lines 2334--2378
  [] [] [] [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2325.
+Package pdftex.def Info: Forest21logo.png  used on input line 2380.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[25
+[26
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-333.
+388.
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2406.
+Package pdftex.def Info: Forest21logo.png  used on input line 2461.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[26
+[27
 
 
 ] 
 AED: lastpage setting LastPage
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2408.
+Package pdftex.def Info: Forest21logo.png  used on input line 2463.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[27] (./QP2_Front_Page.aux)
+[28] (./QP2_Front_Page.aux)
 Package rerunfilecheck Info: File `QP2_Front_Page.out' has not changed.
-(rerunfilecheck)             Checksum: 814571B326C67C7BF4789C7967B8F179;9106.
+(rerunfilecheck)             Checksum: 16AFDBE8A4F937775A8C959B8E187B8D;9273.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 65 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12772 strings out of 480517
- 189919 string characters out of 5898591
- 606896 words of memory out of 5000000
- 29965 multiletter control sequences out of 15000+600000
+ 12828 strings out of 480517
+ 191334 string characters out of 5898591
+ 609162 words of memory out of 5000000
+ 30011 multiletter control sequences out of 15000+600000
  461231 words of font info for 61 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,16n,66p,3119b,3025s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,16n,66p,3119b,3070s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dv
 ips/lm/lm-ec.enc}{c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/d
 vips/lm/lm-ts1.enc}<c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
@@ -1376,10 +1391,10 @@ ing/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/Users/nilsk/AppData/R
 oaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/nilsk/AppDat
 a/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/nilsk/A
 ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on QP2_Front_Page.pdf (36 pages, 540006 bytes).
+Output written on QP2_Front_Page.pdf (37 pages, 543444 bytes).
 PDF statistics:
- 673 PDF objects out of 1000 (max. 8388607)
- 600 compressed objects within 6 object streams
- 204 named destinations out of 1000 (max. 500000)
- 432 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 686 PDF objects out of 1000 (max. 8388607)
+ 611 compressed objects within 7 object streams
+ 207 named destinations out of 1000 (max. 500000)
+ 440 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,7 +16,9 @@ header-includes:
   - \usepackage{lastpage}
   - \usepackage{dcolumn}
   - \usepackage{longtable} 
-  - \usepackage{titling} 
+  - \usepackage{titling}
+  - \usepackage{pagecolor} 
+  - \usepackage{xcolor}
   - \pretitle{\begin{center}
   - \includegraphics[width=6in,height=6in]{Images/Partner_logos.png}\LARGE\\}
   - \posttitle{\end{center}}
@@ -24,7 +26,7 @@ header-includes:
   - \pagestyle{fancy} 
   - \fancyhf{} 
   - \addtolength{\headheight}{1cm}
-  - \rhead{Work in Progress - Version No. 0.12} \lhead{\includegraphics[width=2cm]{Forest21logo.png}}
+  - \rhead{Work in Progress - Version No. 0.13} \lhead{\includegraphics[width=2cm]{Forest21logo.png}}
   - \rfoot{\thepage} \fancypagestyle{plain}{\pagestyle{fancy}}
   - \usepackage{pdflscape}
   - \newcommand{\blandscape}{\begin{landscape}}
@@ -33,6 +35,8 @@ header-includes:
 bibliography: QP2.bib
 csl: apa.csl
 ---
+\definecolor{darkseagreen}{rgb}{0.56, 0.74, 0.56}
+\pagecolor{darkseagreen}
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -91,6 +95,8 @@ The users use the information at their sole risk and liability.
 \end{centering}
 
 \clearpage
+
+\nopagecolor
 
 \pagenumbering{roman}
 
@@ -205,6 +211,9 @@ verhist %>%
 \clearpage
 
 # Executive Summary {-}
+
+```{r Execsummary, child = "Execsummary.Rmd"}
+```
 
 \clearpage
 

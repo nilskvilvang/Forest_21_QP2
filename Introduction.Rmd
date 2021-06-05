@@ -6,6 +6,9 @@ header-includes:
   - \usepackage{pdflscape}
   - \newcommand{\blandscape}{\begin{landscape}}
   - \newcommand{\elandscape}{\end{landscape}}
+  - \usepackage{pagecolor} 
+  - \usepackage{xcolor}
+  - \usepackage{tcolorbox}
 
 bibliography: QP2.bib
 csl: apa.csl
@@ -37,7 +40,7 @@ The project will address:
 
 -   Foresters of 21st century, education shortcomings, and new teaching methods
 
-    There is substantial discrepancy between what the forestry industry in South Africa sees as the key skills for future foresters, and what is being taught in HEIs offering forestry. Several research papers highlight this, as @längin2008 and @mgagaDoesTertiaryEducation2019. The higher education thus needs innovative approaches to develop 21st century foresters. To do this, South African HEIs will embrace teaching methods that not only improve information retention, but also allow students to learn how to solve real work problems. FOREST21 aims to assist a paradigm shift from teacher-centered knowledge sharing to the model where student create knowledge together for themselves (knowledge co-creation through discovery). In parallel, forestry HEIs will increase their curricula offerings on climate adaptation, and mainstream climate issues in core courses. Furthermore, HEIs need to recognize that they can serve as regional/local hubs for communities and business actors for creating, testing and disseminating knowledge and adaptation strategies.
+    There is substantial discrepancy between what the forestry industry in South Africa sees as the key skills for future foresters, and what is being taught in HEIs offering forestry. Several research papers highlight this [@mgagaDoesTertiaryEducation2019;@längin2008]. The higher education thus needs innovative approaches to develop 21st century foresters. To do this, South African HEIs will embrace teaching methods that not only improve information retention, but also allow students to learn how to solve real work problems. FOREST21 aims to assist a paradigm shift from teacher-centered knowledge sharing to the model where student create knowledge together for themselves (knowledge co-creation through discovery). In parallel, forestry HEIs will increase their curricula offerings on climate adaptation, and mainstream climate issues in core courses. Furthermore, HEIs need to recognize that they can serve as regional/local hubs for communities and business actors for creating, testing and disseminating knowledge and adaptation strategies.
 
 -   Developing Entrepreneurial Mindsets
 
@@ -69,7 +72,7 @@ All partner HEIs have similar direct and indirect target groups with similar nee
 
 -   **21st-century skills:** Students of today are preparing themselves to the world of work which is constantly changing and different tomorrow than today. The domain-specific knowledge is not enough for the graduates to be qualified to meet the requirement of the future world of work. 21st-century skills emphasise critical thinking & problem solving, innovativeness & creativeness and teamwork & communication, leadership skills, self-directiveness, cross-cultural and diversity competences, lifelong learning skills and high work ethics. All of these are topics the curricula must contain. The collaborative skills development process with real-life cases contributes to developing all these metacognitive competences of future professionals.
 
-### Project Goals and Objectives
+### Wider Objective
 
 Despite the huge potential, South Africa (SA) is having challenges to create forestry-based jobs and wealth. At the same time strong forestry expertise is needed to fulfill the national climate change/carbon commitments. One very critical reason for the forestry-sector not meeting its expectations in societal and environmental development is that the skills and competences of HEI forestry-graduates do not match the requirements of the world of work. Changing this situation requires:
 
@@ -79,9 +82,12 @@ Despite the huge potential, South Africa (SA) is having challenges to create for
 
 -   HEIs to be equipped with 21st century forestry competences
 
-#### Wider Objective
+The wider objective for FOREST21 is thus defined as:
+\begin{tcolorbox}
 
-> ***Strengthening South African forestry HEIs capacity to provide work-life relevant and inclusive higher education for societal and environmental development.***
+\textsc{Strengthening South African forestry HEIs capacity to provide work-life relevant and inclusive higher education for societal and environmental development.}
+
+\end{tcolorbox}
 
 ```{r widerobj, echo = FALSE}
 
@@ -106,9 +112,14 @@ widerobj %>%
   
 ```
 
-#### FOREST21 Specific Objectives
 
-1.  *Utilization of new climate smart forestry curricula with incorporation of entrepreneurial skills and metacognitive competences*
+### Specific Objectives
+\begin{tcolorbox}
+
+\textsc{Objective 1: Utilization of new climate smart forestry curricula with incorporation of entrepreneurial skills and metacognitive competences.}
+
+\end{tcolorbox}
+
 
 ```{r specobj1, echo = FALSE}
 
@@ -136,8 +147,13 @@ specobj1 %>%
   width(j=~Mitigation,width=1.68)
 ```
 
-2.  *Improved student-centered teaching and learning methods by introducing problem-based learning*
 
+
+\begin{tcolorbox}
+
+\textsc{Objective 2: Improved student-centered teaching and learning methods by introducing problem-based learning.}
+
+\end{tcolorbox}
 ```{r specobj2, echo = FALSE}
 
 library(flextable)
@@ -164,7 +180,12 @@ specobj2 %>%
   width(j=~Mitigation,width=1.68)
 ```
 
-3.  *Actively cooperating network-based learning ecosystem with academia and societal/industry partners in South African context*
+\begin{tcolorbox}
+
+\textsc{Objective 3: Actively cooperating network-based learning ecosystem with academia and societal/industry partners in South African context.}
+
+\end{tcolorbox}
+
 
 ```{r specobj3, echo = FALSE}
 
@@ -192,7 +213,12 @@ specobj3 %>%
   width(j=~Mitigation,width=1.68)
 ```
 
-4.  *Strengthened HEI capacity to further contextualize and develop curricula, pedagogical methodology and learning ecosystems through national and international partnerships*
+\begin{tcolorbox}
+
+\textsc{Objective 4: Strengthened HEI capacity to further contextualize and develop curricula, pedagogical methodology and learning ecosystems through national and international partnerships.}
+
+\end{tcolorbox}
+
 
 ```{r specobj4, echo = FALSE}
 
@@ -248,6 +274,10 @@ participants %>%
   width(j=~Description, width = 5)
   
 ```
+
+### Associated Partners
+
+See Appendix for associated partners.
 
 ### Project Characteristics
 
@@ -551,25 +581,25 @@ There are four levels of management:
 
 1.  Project Advisory Board (PAB)
 
-> The PAB conducts strategic monitoring and decision making. Each partner organization assigns one member. The chair rotates among the partner HEIs. Associate partners participate with nominated representatives.  
+> The PAB conducts strategic monitoring and decision making. Each partner organization assigns one member. The chair rotates among the partner HEIs. Associate partners participate with nominated representatives.
 
-> The PAB will meet twice a year; one face-to-face and one online. Additional meetings can be scheduled if necessary. 
+> The PAB will meet twice a year; one face-to-face and one online. Additional meetings can be scheduled if necessary.
 
 2.  Project Management Team (PMT)
 
-> The PMT conducts the daily administration and reporting. Each partner organization appoints a Local Coordinator (LC). The PMT is chaired by HAMK. 
+> The PMT conducts the daily administration and reporting. Each partner organization appoints a Local Coordinator (LC). The PMT is chaired by HAMK.
 
 > The PMT will meet five times in addition to the workshops. Online meetings in between other meetings to secure meetings every three months as a minimum.
 
-> The PMT are responsible for the overall management of the project, and in particular conduct oversight of the quality and dissemination processes. The PMT will issue progress reports based on inputs from the Quality Manager every six months or upon resuest from the PAB. 
+> The PMT are responsible for the overall management of the project, and in particular conduct oversight of the quality and dissemination processes. The PMT will issue progress reports based on inputs from the Quality Manager every six months or upon resuest from the PAB.
 
 3.  Core Teams (CT)
 
-> Core teams form under the guidance of the PMT and conducts specific work on selected topics, as pedagogics, quality, curriculum, and dissemniation and exploitation. 
+> Core teams form under the guidance of the PMT and conducts specific work on selected topics, as pedagogics, quality, curriculum, and dissemniation and exploitation.
 
 4.  Individual Partner / LC
 
-> All partners are responsbile for their respective assignemnt of tasks in the different work packages.The LC coordinates the local management and implementation process, and secures timely progress reporting (every four months) to HAMK. The LC must secure coordination between the WP and CT leaders and their institution.   
+> All partners are responsbile for their respective assignemnt of tasks in the different work packages.The LC coordinates the local management and implementation process, and secures timely progress reporting (every four months) to HAMK. The LC must secure coordination between the WP and CT leaders and their institution.
 
 ### Key Project Deliverables, Milestones and Processes
 
@@ -633,11 +663,30 @@ Tangible results of FOREST21 are the following:
 ## Definitions
 
 ### Quality Management
+\begin{tcolorbox}
+
+\textsc{In this project, Quality Management (QM) is the process of overseeing all activities in the project to secure that the desired scope and characteristics of the outcome are consistent with expectations and allocated resources. QM thus involves determination of quality policy, quality planning, quality assurance, quality control and quality improvement [@rose2006].}
+
+\end{tcolorbox}
+
 
 ### Quality Planning
+\begin{tcolorbox}
+
+\textsc{text here}
+
+\end{tcolorbox}
 
 ### Quality Assurance
+\begin{tcolorbox}
 
-Quality assurance is an ongoing effort to address improvements of the deliverables over time through small, incremental changes or through system-level changes if so needed. The data collection timeline follows the cycles of WPs.
+\textsc{Quality assurance is an ongoing effort to address improvements of the deliverables over time through small, incremental changes or through system-level changes if so needed. The data collection timeline follows the cycles of WPs.}
+
+\end{tcolorbox}
 
 ### Quality Control
+\begin{tcolorbox}
+
+\textsc{text here}
+
+\end{tcolorbox}

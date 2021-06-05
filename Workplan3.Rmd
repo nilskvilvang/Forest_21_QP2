@@ -1,20 +1,20 @@
 ---
-title: " "
+title: ' '
 output: pdf_document
 header-includes:
-  - \usepackage{float}
-  - \usepackage{pdflscape}
-  - \newcommand{\blandscape}{\begin{landscape}}
-  - \newcommand{\elandscape}{\end{landscape}}
-
+- \usepackage{float}
+- \usepackage{pdflscape}
+- \usepackage{xcolor}
+- \usepackage[most]{tcolorbox}
+- \newcommand{\blandscape}{\begin{landscape}}
+- \newcommand{\elandscape}{\end{landscape}}
 bibliography: QP2.bib
 csl: apa.csl
-
 ---
 
 \blandscape
 
-```{r workplan3, echo = FALSE}
+```{r workplan3, echo = FALSE, background = 'red'}
 
 library(flextable)
 library(magrittr)
@@ -66,5 +66,6 @@ workplan3 %>%
   bold(i=8, bold = TRUE) %>%
   bold(i=12, bold = TRUE)
 ```
+
 
 \elandscape
