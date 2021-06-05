@@ -545,7 +545,31 @@ wp5obj %>%
 
 ### Structure for Project Work and Cooperation
 
-There are three levels of management:
+FOREST21 is based on equal cooperation, dialogue, and transparency, which builds trust and common understanding between partners. Thus, continuous open communication takes place in digital platforms (also between the management groups). Internal communication happens in closed project web-platforms, emails and online. External communication, sharing outputs/results, happens on the project web page, events, and web page following the D&E Plan.
+
+There are four levels of management:
+
+1.  Project Advisory Board (PAB)
+
+> The PAB conducts strategic monitoring and decision making. Each partner organization assigns one member. The chair rotates among the partner HEIs. Associate partners participate with nominated representatives.  
+
+> The PAB will meet twice a year; one face-to-face and one online. Additional meetings can be scheduled if necessary. 
+
+2.  Project Management Team (PMT)
+
+> The PMT conducts the daily administration and reporting. Each partner organization appoints a Local Coordinator (LC). The PMT is chaired by HAMK. 
+
+> The PMT will meet five times in addition to the workshops. Online meetings in between other meetings to secure meetings every three months as a minimum.
+
+> The PMT are responsible for the overall management of the project, and in particular conduct oversight of the quality and dissemination processes. The PMT will issue progress reports based on inputs from the Quality Manager every six months or upon resuest from the PAB. 
+
+3.  Core Teams (CT)
+
+> Core teams form under the guidance of the PMT and conducts specific work on selected topics, as pedagogics, quality, curriculum, and dissemniation and exploitation. 
+
+4.  Individual Partner / LC
+
+> All partners are responsbile for their respective assignemnt of tasks in the different work packages.The LC coordinates the local management and implementation process, and secures timely progress reporting (every four months) to HAMK. The LC must secure coordination between the WP and CT leaders and their institution.   
 
 ### Key Project Deliverables, Milestones and Processes
 

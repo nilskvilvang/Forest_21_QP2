@@ -1,0 +1,70 @@
+---
+title: " "
+output: pdf_document
+header-includes:
+  - \usepackage{float}
+  - \usepackage{pdflscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+
+bibliography: QP2.bib
+csl: apa.csl
+
+---
+
+\blandscape
+
+```{r assocpartners, echo = FALSE}
+
+library(flextable)
+library(magrittr)
+
+set_flextable_defaults(fonts_ignore=TRUE) 
+
+assocpartners <- data.frame(Organization = c("Forestry South Africa (FSA)", 
+                                             "Department of Higher Education, Science and Technology (DHEST)",
+                                             "Council on Higher Education (CHE)", 
+                                             "Fibre Processing and Manufacturing Sector Training Authority (FP&M SETA",                                                                                     "Department of Environment, Forestry, and Fisheries (DEFF)", 
+                                             "Council for Scientific and Industrial Research                                                     (CSIR)", 
+                                             "South African Qualifications Authority"),
+                            Type = c("Forestry Industry Association", 
+                                     "National Department (Ministry)", 
+                                     "Statutory Corporate Body", 
+                                     "Sector Training Authority", 
+                                     "National Department (Ministry)-sector leader", 
+                                     "Research & Development Organisation",                                            
+                                     "Statutory Board (Quality Council)"),
+                            Place = c("Johannesburg", "Pretoria", "Pretoria", "Johannesburg", "Pretoria", "Pretoria", "Pretoria"), 
+                            Country = c("South Africa", "South Africa","South Africa","South Africa","South Africa","South Africa","South Africa"),
+                            Role = c("Coordinator of the South African core-Partners \n Co-funder \n Dissemination partner \n Advisory Board member Dr. Ronald                                        – Director: Research & Protection",
+                                     "Advisory Board Member Dr. Diane Parker, Deputy Director-General",
+                                     "Advisory Board Member Prof. Kethamonie Naidoo, Director: Programme Accreditation", 
+                                     "Prospective core-funder \n Development partner \n Advisory board member Mr. Johnny Modiba – General Manager: Quality                                            Assurance", 
+                                     "Climate change partner (authority) \n Advisory Board Member Ms. Irene Mathabela, Deputy Director: Sector Capacity                                               Development", 
+                                     "Prospective Advisory Board Member", "Prospective Board Member"),
+                            Activities = c("WP1: Coordinating Associate Partners participation \n WP4: Dissemination", 
+                                           "WP3: Advice on issues of Quality", 
+                                           "WP3:Advise on issues of Quality Promotion & assurance", 
+                                           "WP2: Development", 
+                                           "WP2 & 3: Advice on climatre-smart forestry curricula quality; advice on matters of quality process management",
+                                           "WP2: Advice on climate change issues to the climate-smart forestry curricula", 
+                                           "Advice on matters of qualification registration"))
+                        
+                        
+assocpartners <- flextable(assocpartners)
+assocpartners <- set_caption(assocpartners, "Associated Partners")
+
+assocpartners <- height(assocpartners, height = .3) %>% 
+  hrule(rule = "exact", part = "body")  
+
+assocpartners %>%  
+  theme_vanilla() %>%
+  width(j=~Organization, width = 1.3) %>%
+  width(j=~Type, width = 1) %>%
+  width(j=~Place, width = 1) %>%
+  width(j=~Country, width = 1) %>%
+  width(j=~Role, width = 2.5) %>%
+  width(j=~Activities, width = 2)
+```
+
+\elandscape
