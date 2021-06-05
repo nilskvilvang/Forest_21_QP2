@@ -1,0 +1,53 @@
+---
+title: " "
+output: pdf_document
+header-includes:
+  - \usepackage{float}
+  - \usepackage{pdflscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+
+bibliography: QP2.bib
+csl: apa.csl
+
+
+---
+
+\blandscape
+
+```{r workplan1, echo = FALSE}
+
+library(flextable)
+library(magrittr)
+
+set_flextable_defaults(fonts_ignore=TRUE) 
+
+
+
+workplan1 <- data.frame(Ref = c("1", "", "", "2", "", "", "3", "", "4", "", "", "", "5", "", "", ""),                                
+                        SubRef = c("", "1.1", "1.2", "", "2.5","2.6","","3.1","","4.1","4.3","4.4","","5.1","5.2","5.3"),
+                        Title = c("PREPARATION", "Feasibility study on knowledge needs and current competences", "Curricula development workshop", "DEVELOPMENT", "Establishment of societal/industry partnerships","Student challenges development and implementation","QUALITY PLAN","Preparation of quality plan and platform","DISSEMINATION AND EXPLOITATION","Developing dissemination and exploitation plan","Internal project information channels and platforms established","Project information to key stakeholders","PROJECT MANAGEMENT","Setting up the project management structures","Preparation of operational guidelines","Project kick-off workshop"),
+                        Weeks = c("17", "16", "1", "8", "4", "4", "10", "10", "20", "10", "8", "2", "21", "10", "10", "1"),
+                        Jan = c("","","","","","","","","","","2","", "","2", "2",""),
+                        Feb = c("","","","","","","","","","","2","", "","2", "2",""),
+                        Mar = c("","","","","","","","","","","2","", "","2", "2","1"),
+                        Apr = c("","2","","","","","","2","","2","2","1", "","2", "2",""),
+                        May = c("","4","","","","","","2","","2","","", "","", "",""),
+                        Jun = c("","4","","","","","","2","","2","","", "","", "",""),
+                        Jul = c("","4","","","","","","2","","2","","", "","", "",""),
+                        Aug = c("","2","","","","","","2","","2","","", "","", "",""),
+                        Sep = c("","","1","","","","","","","","","1", "","", "",""),
+                        Oct = c("","","","","2","2","","","","","","", "","", "",""),
+                        Nov = c("","","","","2","2","","","","","","", "","", "",""),
+                        Dec = c("","","","","","","","","","","","", "","", "",""))
+
+workplan1 <- flextable(workplan1)
+workplan1 <- set_caption(workplan1, "Work plan Year 1")
+
+workplan1 %>%  
+  theme_vanilla() %>% # evt theme_zebra
+  autofit() %>%
+  fit_to_width(8)
+```
+
+\elandscape

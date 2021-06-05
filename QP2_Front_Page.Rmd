@@ -23,9 +23,12 @@ header-includes:
   - \usepackage{fancyhdr} 
   - \pagestyle{fancy} 
   - \fancyhf{} 
-  - \addtolength{\headheight}{1.0cm}
+  - \addtolength{\headheight}{1cm}
   - \rhead{Work in Progress - Version No. 0.12} \lhead{\includegraphics[width=2cm]{Forest21logo.png}}
   - \rfoot{\thepage} \fancypagestyle{plain}{\pagestyle{fancy}}
+  - \usepackage{pdflscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
 
 bibliography: QP2.bib
 csl: apa.csl

@@ -1,0 +1,70 @@
+---
+title: " "
+output: pdf_document
+header-includes:
+  - \usepackage{float}
+  - \usepackage{pdflscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+
+bibliography: QP2.bib
+csl: apa.csl
+
+---
+
+\blandscape
+
+```{r workplan2, echo = FALSE}
+
+library(flextable)
+library(magrittr)
+
+set_flextable_defaults(fonts_ignore=TRUE) 
+
+workplan2 <- data.frame(Ref = c("1", "", "2", "", "", "","","","","3", "","", "4", "", "", "5", "", ""),                                
+                        SubRef = c("", "1.3", "", "2.1", "2.2","2.3","2.4","2.5","2.6","","3.2","3.3","","4.4","4.8","", "5.6", "5.7"),
+                        Title = c("PREPARATION", 
+                                  "Climate-smart curricula development and adaptation in partner HEIs",
+                                  "DEVELOPMENT", 
+                                  "Pedagogical training workshops for teachers and faculty staff (2)", 
+                                  "Climate-smart forestry workshop",
+                                  "Web-based support for pedagogical and climate-smart forestry curricula development",
+                                  "Pedagogical and climate-smart forestry workshops training materials preparation",
+                                  "Establishment of societal/industry partnership",
+                                  "Student challenges development and implementation",
+                                  "QUALITY",
+                                  "Quality data collection and analyses",
+                                  "Guidance on quality assurance to increase HEIs capacity for MEL",
+                                  "DISSEMINATION AND EXPLOITATION",
+                                  "Project information to key stakeholders",
+                                  "Preparation of publications, conference presentations",
+                                  "PROJECT MANAGEMENT", 
+                                  "Mid-term review", 
+                                  "Interim reporting"),
+                        Weeks = c("48", "48", "44", "4", "2", "6", "14", "6", "12","6", "4", "2", "12", "2", "10", "12", "6", "6"),
+                        Jan = c("","4","","","","","","","","","","", "","", "","","",""),
+                        Feb = c("","4","","1","","2","2","","","","2","", "","1", "","","",""),
+                        Mar = c("","4","","","","","2","","2","","2","", "","", "","","",""),
+                        Apr = c("","4","","","","1","2","","","","","2", "","", "","","",""),
+                        May = c("","4","","","1","","2","","","","","", "","", "","","2",""),
+                        Jun = c("","4","","","","","2","","","","","", "","", "2","","2","2"),
+                        Jul = c("","4","","","","","2","2","","","","", "","", "2","","2","2"),
+                        Aug = c("","4","","","","1","2","2","2","","","", "","", "2","","","2"),
+                        Sep = c("","4","","1","","","","","2","","","", "","1", "2","","",""),
+                        Oct = c("","4","","","","","","","2","","","", "","", "2","","",""),
+                        Nov = c("","4","","","","","","2","2","","","", "","", "","","",""),
+                        Dec = c("","4","","","","2","","","2","","","", "","", "","","",""))
+
+workplan2 <- flextable(workplan2)
+workplan2 <- set_caption(workplan2, "Work plan Year 2")
+
+workplan2 <- height(workplan2, height = .3) %>% 
+  hrule(rule = "exact", part = "body")  
+
+workplan2 %>%  
+  theme_vanilla() %>%
+  autofit() %>%
+  fit_to_width(8)
+```
+
+\elandscape
