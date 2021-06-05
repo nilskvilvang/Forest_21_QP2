@@ -19,6 +19,7 @@ header-includes:
   - \usepackage{titling}
   - \usepackage{pagecolor} 
   - \usepackage{xcolor}
+  - \usepackage{tcolorbox}
   - \pretitle{\begin{center}
   - \includegraphics[width=6in,height=6in]{Images/Partner_logos.png}\LARGE\\}
   - \posttitle{\end{center}}
@@ -44,7 +45,7 @@ options(tinytex.verbose = TRUE)
 
 if(!require(pacman)) install.packages("pacman")
 
-pacman::p_load(assertthat, backports, base64enc, broom, cli, colorspace, crayon, data.table, DBI, digest, dplyr, ellipsis, evaluate, fansi, flextable, float, gdtools, generics, glue, htmltools, httr , kableExtra, knitr, lifecycle, magrittr, munsell, officer, pillar, pkgconfig, purrr, R6, rlang, rmarkdown, rstudioapi, rvest, scales, sessioninfo, stringi, stringr, svglite, systemfonts, tibble, tidyr, tidyselect, utf8, uuid, vctrs, viridisLite, webshot, withr, xfun, xml2, yaml, zip)
+pacman::p_load(assertthat, backports, base64enc, broom, cli, colorspace, crayon, data.table, DBI, digest, dplyr, ellipsis, evaluate, fansi, flextable, float, ganttrify, gdtools, generics, glue, htmltools, httr , kableExtra, knitr, lifecycle, magrittr, munsell, officer, pillar, pkgconfig, purrr, R6, rlang, rmarkdown, rstudioapi, rvest, scales, sessioninfo, stringi, stringr, svglite, systemfonts, tibble, tidyr, tidyselect, utf8, uuid, vctrs, viridisLite, webshot, withr, xfun, xml2, yaml, zip)
 ```
 
 \subsectionfont{\raggedright}

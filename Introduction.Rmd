@@ -40,7 +40,7 @@ The project will address:
 
 -   Foresters of 21st century, education shortcomings, and new teaching methods
 
-    There is substantial discrepancy between what the forestry industry in South Africa sees as the key skills for future foresters, and what is being taught in HEIs offering forestry. Several research papers highlight this [@mgagaDoesTertiaryEducation2019;@längin2008]. The higher education thus needs innovative approaches to develop 21st century foresters. To do this, South African HEIs will embrace teaching methods that not only improve information retention, but also allow students to learn how to solve real work problems. FOREST21 aims to assist a paradigm shift from teacher-centered knowledge sharing to the model where student create knowledge together for themselves (knowledge co-creation through discovery). In parallel, forestry HEIs will increase their curricula offerings on climate adaptation, and mainstream climate issues in core courses. Furthermore, HEIs need to recognize that they can serve as regional/local hubs for communities and business actors for creating, testing and disseminating knowledge and adaptation strategies.
+    There is substantial discrepancy between what the forestry industry in South Africa sees as the key skills for future foresters, and what is being taught in HEIs offering forestry. Several research papers highlight this [@mgagaDoesTertiaryEducation2019; @längin2008]. The higher education thus needs innovative approaches to develop 21st century foresters. To do this, South African HEIs will embrace teaching methods that not only improve information retention, but also allow students to learn how to solve real work problems. FOREST21 aims to assist a paradigm shift from teacher-centered knowledge sharing to the model where student create knowledge together for themselves (knowledge co-creation through discovery). In parallel, forestry HEIs will increase their curricula offerings on climate adaptation, and mainstream climate issues in core courses. Furthermore, HEIs need to recognize that they can serve as regional/local hubs for communities and business actors for creating, testing and disseminating knowledge and adaptation strategies.
 
 -   Developing Entrepreneurial Mindsets
 
@@ -83,12 +83,14 @@ Despite the huge potential, South Africa (SA) is having challenges to create for
 -   HEIs to be equipped with 21st century forestry competences
 
 The wider objective for FOREST21 is thus defined as:
+
+```{=tex}
 \begin{tcolorbox}
 
 \textsc{Strengthening South African forestry HEIs capacity to provide work-life relevant and inclusive higher education for societal and environmental development.}
 
 \end{tcolorbox}
-
+```
 ```{r widerobj, echo = FALSE}
 
 library(flextable)
@@ -112,15 +114,15 @@ widerobj %>%
   
 ```
 
-
 ### Specific Objectives
+
+```{=tex}
 \begin{tcolorbox}
 
 \textsc{Objective 1: Utilization of new climate smart forestry curricula with incorporation of entrepreneurial skills and metacognitive competences.}
 
 \end{tcolorbox}
-
-
+```
 ```{r specobj1, echo = FALSE}
 
 library(flextable)
@@ -147,13 +149,13 @@ specobj1 %>%
   width(j=~Mitigation,width=1.68)
 ```
 
-
-
+```{=tex}
 \begin{tcolorbox}
 
 \textsc{Objective 2: Improved student-centered teaching and learning methods by introducing problem-based learning.}
 
 \end{tcolorbox}
+```
 ```{r specobj2, echo = FALSE}
 
 library(flextable)
@@ -180,13 +182,13 @@ specobj2 %>%
   width(j=~Mitigation,width=1.68)
 ```
 
+```{=tex}
 \begin{tcolorbox}
 
 \textsc{Objective 3: Actively cooperating network-based learning ecosystem with academia and societal/industry partners in South African context.}
 
 \end{tcolorbox}
-
-
+```
 ```{r specobj3, echo = FALSE}
 
 library(flextable)
@@ -213,13 +215,13 @@ specobj3 %>%
   width(j=~Mitigation,width=1.68)
 ```
 
+```{=tex}
 \begin{tcolorbox}
 
 \textsc{Objective 4: Strengthened HEI capacity to further contextualize and develop curricula, pedagogical methodology and learning ecosystems through national and international partnerships.}
 
 \end{tcolorbox}
-
-
+```
 ```{r specobj4, echo = FALSE}
 
 library(flextable)
@@ -326,6 +328,14 @@ workpackages %>%
   
 ```
 
+#### Work Package 1
+
+WP1 Preparations aims to create a coherent and joint understanding of key issues of the project: - contextualizable PBL-methodology as the new paradigm for the curricula new/contextualised curricula development, - integration of the climate change mitigation and environmental sustainability in the forestry curricula as the forestry and trees are the key to environmental sustainability. - importance of mainstreaming entrepreneurship and soft skills into the curricula - HBRA/gender in forestry curricula and curricula implementation
+
+This joint understanding guides the curricula development/revision work in the Partner HEIs. The joint understanding is created through mapping of the current situation in HEIs (pedagogics and climate-smart forestry competence), by understanding the needs of the employers (societal actors, industry, world-of-work), by collecting the expectations of the education governance in regional/local/national levels. The baseline mapping will also hear students views on curricula content and implementation.
+
+Analytical findings of the Feasibility Study are the baseline for FOREST21 action: curricula development work and pedagogical/PBL and climate-smart forestry trainings. The Curricula Development Workshop discusses the findings and paves way for the HEI work in revising the existing curricula or developing new curricula to meet the needs of 21st century.
+
 ```{r WP1details, echo = FALSE}
 
 library(flextable)
@@ -374,6 +384,24 @@ wp1obj %>%
   width(j=~Risks,width=1.68) %>%
   width(j=~Mitigation,width=1.68)
 ```
+
+#### Work Package 2
+
+PBL-based teaching requires collaboration with societal and industry partners. The main risk of the capacity development on PBL methodology is related to collaboration with the external partners (entrepreneur & business community, societal partners, NGOs) and to the ability to recognise and select suitable pilot student challenges. The external collaboration partners need to understand their role in the teaching process right, this meaning that collaboration is win-win situation where the industry gains the innovative solutions of the students to their development challenges. Industry cases need to be on the right scale and the industry needs to level their expectations right; students may produce applicable solutions/innovations, but results may remain also weaker. Anyway, the industry gets networks to their future employees. Industry stakeholders also need to be ready to give time and travel to participate to facilitate the student fieldwork from their part.
+
+The other risk is related to the international work teams. Scheduling and communication may cause challenges. Lessons learned to mitigate this risk is that student cases their schedules need to have flexibility and on the other hand, reflection and well-planned guidance of is needed.
+
+One more risk is that PBL based student- cantered practises are too far from South African context and does not root the cultural system. Also, the HEI traditional practises and teachers' work management might become a constraint for the PBL methodology. Regarding development of climate-smart forestry curricula, HEI management and teachers' commitment to learning new things is critical. However, this should not be a big risk because the preparation process has created commitment and HEI teams for the project have been established.
+
+Collaborative Action for Scaling Agri-Entrepreneurship and Industry Engagement in Food and Agribusiness Training in Sub-Saharan Africa (AgriSCALE)Page 51 of 155
+
+WP2 includes:
+
+-   peer-to-peer teacher/faculty training on (i) climate-smart forestry and (ii) PBL-based teaching & learning and curricula development;
+
+-   contextualisation PBL-methodology through students' field challenges; and
+
+-   preparation of toolkit and setting up a network for the further competence and methodology development work.
 
 ```{r WP2details, echo = FALSE}
 
@@ -424,6 +452,10 @@ wp2obj %>%
   width(j=~Mitigation,width=1.68)
 ```
 
+#### Work Package 3
+
+Many of the PBL methods are new to partner HEI staff. This novelty aspect has to be taken into consideration; to teach through learning-by-doing challenge based and the paradigm shift on teachers' role (teacher-led to student-centered) requires change in mindset and new skills from not only from faculty but also from students and external partners. The transformation to adapt the new methodology and collaborative teaching arrangements requires time and this is how the project is built: collaboration process support gradual competence development and when the process moves forwards, more responsibility is given for self-geared actions. The evaluation process has to capture the true sense of this holistic capacity building process, which is based on planning, taking action, reflecting and starting the transformation cycle anew. Also, the true nature of quality assurance is to be a tool helping to find the right way to reach the objectives, and this has to be understood well by all partners: aim is to identify the gaps and needs and the final objective of quality data collection is to give guidance for the capacity building process. Quality assurance is an internal process which requires commitment and openness.
+
 ```{r WP3details, echo = FALSE}
 
 library(flextable)
@@ -473,6 +505,21 @@ wp3obj %>%
   width(j=~Mitigation,width=1.68)
 ```
 
+#### Work Package 4
+
+Dissemination is embedded to FOREST21 and it is done continuously as the project moves forward but actions intensify towards the end of the project when there is synthesis of lessons-learned available to be shared with wider community and education decision makers. Continuous dissemination seeks to raise interest to paradigm change of forestry education. After each phase of development cycle, outcomes and outputs are disseminated. Partner HEI teaching staff and students have active role in dissemination to share on peer-to-peer bases. Dissemination and exploitation are led by TUT in cooperation with Fort Cox and SU. Forestry South Africa (FSA) is willing and committed to coordinate the dissemination activities from their capacity. FSA is also willing to provide extra financial resources to make sure the dissemination is effective. The FSA contribution will be discussed annually.
+
+In the beginning of the project, Dissemination and Exploitation Plan (DEP) will be detail the channels used, target groups, activities and roles and responsibilities in institutional, national, regional and international level. TUT Local Coordinator will act as the DEP Manager. Under DEP Manager guidance, the DEP Plan is prepared together with dissemination Core Team and the Project Management Team (PMT).
+
+Projects direct target groups are students and teaching staff of the partner HEIs. Industrial/societal partners are also an important group to be aware to the project activities. Commitment of the partner HEIs management to support and enable the paradigm shift is crucial. The trained teachers will act as change agents inside the partner HEIs to exploit the project results. For the exploitation on national level as well as on the regional level, the HEI community, including students, staff and management are the key group for dissemination. In addition, the education and business governance in national and regional are to be included to the dissemination, because they are the enablers of project results upscaling.
+
+With exploitation, the project results are put into practise in the partner HEIs, and in national and regional as well as international level. The exploitation of FOREST21 includes:
+
+-   Scaling up of the PBL in course/subject descriptions in partner HEIs, and in national and regional level (entrepreneurship courses/subjects, and upon time also in other courses/subjects);
+-   Scaling up the PBL delivery methodology through the trained teaching staff acting as change agents in their own HEIs and through the PBL expert network in national and regional level;
+-   Deepening the industry/societal partner cooperation to other industry-university collaboration (e.g. development and research activities) based on the collaboration established during the student pilots/challenges; and
+-   Development of PBL based capacity building training modules/products in the European HEIs
+
 ```{r WP4details, echo = FALSE}
 
 library(flextable)
@@ -521,6 +568,14 @@ wp4obj %>%
   width(j=~Risks,width=1.68) %>%
   width(j=~Mitigation,width=1.68)
 ```
+
+#### Work Package 5
+
+FOREST21 management follows the structures of similar projects implemented by HAMK. The Project management structure is based on the one guided by HAMK internal Quality Process and well-tested in various international projects.
+
+FOREST21is based on equality of partners, transparency, and dialogue. Management practises have to support and encourage this. Project management is subject to monitoring and evaluation.
+
+Project management is led by Häme University of Applied Sciences (HAMK). This includes overall project coordination, country-specific coordination, and financial management.
 
 ```{r WP5details, echo = FALSE}
 
@@ -601,22 +656,18 @@ There are four levels of management:
 
 > All partners are responsbile for their respective assignemnt of tasks in the different work packages.The LC coordinates the local management and implementation process, and secures timely progress reporting (every four months) to HAMK. The LC must secure coordination between the WP and CT leaders and their institution.
 
-### Key Project Deliverables, Milestones and Processes
+### Organogram
 
-### Work Plans
+![Organogram](Organogram.png)
 
-```{r Workplan1, child = "Workplan1.Rmd"}
+
+### Overall Timeline
+
+See Appendix for detailed Work Plans.
+
+```{r timeline, child = "Timeline.Rmd"}
 ```
 
-\clearpage
-
-```{r Workplan2, child = "Workplan2.Rmd"}
-```
-
-\clearpage
-
-```{r Workplan3, child = "Workplan3.Rmd"}
-```
 
 \clearpage
 
@@ -663,30 +714,38 @@ Tangible results of FOREST21 are the following:
 ## Definitions
 
 ### Quality Management
+
+```{=tex}
 \begin{tcolorbox}
 
 \textsc{In this project, Quality Management (QM) is the process of overseeing all activities in the project to secure that the desired scope and characteristics of the outcome are consistent with expectations and allocated resources. QM thus involves determination of quality policy, quality planning, quality assurance, quality control and quality improvement [@rose2006].}
 
 \end{tcolorbox}
-
-
+```
 ### Quality Planning
+
+```{=tex}
 \begin{tcolorbox}
 
 \textsc{text here}
 
 \end{tcolorbox}
-
+```
 ### Quality Assurance
+
+```{=tex}
 \begin{tcolorbox}
 
 \textsc{Quality assurance is an ongoing effort to address improvements of the deliverables over time through small, incremental changes or through system-level changes if so needed. The data collection timeline follows the cycles of WPs.}
 
 \end{tcolorbox}
-
+```
 ### Quality Control
+
+```{=tex}
 \begin{tcolorbox}
 
 \textsc{text here}
 
 \end{tcolorbox}
+```

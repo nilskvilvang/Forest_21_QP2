@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.3)  5 JUN 2021 17:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.3)  5 JUN 2021 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -454,6 +454,288 @@ Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 ty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ))
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcolorbo
+x.sty
+Package: tcolorbox 2021/05/21 version 4.50 text color boxes
+
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf
+.sty
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfr
+cs.sty
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
+futil-common.tex
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen165
+\pgfutil@tempdimb=\dimen166
+
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
+futil-common-lists.tex))
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
+futil-latex.def
+\pgfutil@abb=\box61
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
+frcs.code.tex
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision
+.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf
+core.sty
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pg
+fsys.sty
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
+pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
+fkeys.code.tex
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
+
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
+fkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks33
+))
+\pgf@x=\dimen167
+\pgf@y=\dimen168
+\pgf@xa=\dimen169
+\pgf@ya=\dimen170
+\pgf@xb=\dimen171
+\pgf@yb=\dimen172
+\pgf@xc=\dimen173
+\pgf@yc=\dimen174
+\pgf@xd=\dimen175
+\pgf@yd=\dimen176
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count287
+\c@pgf@countb=\count288
+\c@pgf@countc=\count289
+\c@pgf@countd=\count290
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+\pgf@sys@id@count=\count291
+
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
+pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
+pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
+pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
+pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count292
+\pgfsyssoftpath@bigbuffer@items=\count293
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
+pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
+.code.tex
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
+calc.code.tex
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
+util.code.tex)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
+parser.code.tex
+\pgfmath@dimen=\dimen177
+\pgfmath@count=\count294
+\pgfmath@box=\box62
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
+functions.code.tex
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
+functions.basic.code.tex)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
+functions.trigonometric.code.tex)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
+functions.random.code.tex)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
+functions.comparison.code.tex)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
+functions.base.code.tex)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
+functions.round.code.tex)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
+functions.misc.code.tex)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
+functions.integerarithmetics.code.tex)))
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
+float.code.tex
+\c@pgfmathroundto@lastzeros=\count295
+))
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.
+code.tex)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen178
+\pgf@picmaxx=\dimen179
+\pgf@picminy=\dimen180
+\pgf@picmaxy=\dimen181
+\pgf@pathminx=\dimen182
+\pgf@pathmaxx=\dimen183
+\pgf@pathminy=\dimen184
+\pgf@pathmaxy=\dimen185
+\pgf@xx=\dimen186
+\pgf@xy=\dimen187
+\pgf@yx=\dimen188
+\pgf@yy=\dimen189
+\pgf@zx=\dimen190
+\pgf@zy=\dimen191
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen192
+\pgf@path@lasty=\dimen193
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen194
+\pgf@shorten@start@additional=\dimen195
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count296
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen196
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen197
+\pgf@pt@y=\dimen198
+\pgf@pt@temp=\dimen199
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen256
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen257
+\pgf@sys@shading@range@num=\count297
+\pgf@shadingcount=\count298
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box66
+))
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
+gfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfm
+oduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box67
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfm
+oduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/
+pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen258
+\pgf@nodesepend=\dimen259
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/
+pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks40
+\verbatim@line=\toks41
+\verbatim@in@stream=\read3
+)
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/environ/environ.st
+y
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/trimspaces/trimspa
+ces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.
+sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count299
+)
+\tcb@titlebox=\box68
+\tcb@upperbox=\box69
+\tcb@lowerbox=\box70
+\tcb@phantombox=\box71
+\c@tcbbreakpart=\count300
+\c@tcblayer=\count301
+\c@tcolorbox@number=\count302
+\tcb@temp=\box72
+\tcb@temp=\box73
+\tcb@temp=\box74
+\tcb@temp=\box75
+)
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.
 sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
@@ -481,45 +763,45 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.
 sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen165
-\lightrulewidth=\dimen166
-\cmidrulewidth=\dimen167
-\belowrulesep=\dimen168
-\belowbottomsep=\dimen169
-\aboverulesep=\dimen170
-\abovetopsep=\dimen171
-\cmidrulesep=\dimen172
-\cmidrulekern=\dimen173
-\defaultaddspace=\dimen174
-\@cmidla=\count287
-\@cmidlb=\count288
-\@aboverulesep=\dimen175
-\@belowrulesep=\dimen176
-\@thisruleclass=\count289
-\@lastruleclass=\count290
-\@thisrulewidth=\dimen177
+\heavyrulewidth=\dimen260
+\lightrulewidth=\dimen261
+\cmidrulewidth=\dimen262
+\belowrulesep=\dimen263
+\belowbottomsep=\dimen264
+\aboverulesep=\dimen265
+\abovetopsep=\dimen266
+\cmidrulesep=\dimen267
+\cmidrulekern=\dimen268
+\defaultaddspace=\dimen269
+\@cmidla=\count303
+\@cmidlb=\count304
+\@aboverulesep=\dimen270
+\@belowrulesep=\dimen271
+\@thisruleclass=\count305
+\@lastruleclass=\count306
+\@thisrulewidth=\dimen272
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multirow.
 sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip75
-\multirow@cntb=\count291
+\multirow@cntb=\count307
 \multirow@dima=\skip76
-\bigstrutjot=\dimen178
+\bigstrutjot=\dimen273
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.st
 y
-\wrapoverhang=\dimen179
-\WF@size=\dimen180
-\c@WF@wrappedlines=\count292
-\WF@box=\box61
-\WF@everypar=\toks30
+\wrapoverhang=\dimen274
+\WF@size=\dimen275
+\c@WF@wrappedlines=\count308
+\WF@box=\box76
+\WF@everypar=\toks42
 Package: wrapfig 2003/01/31  v 3.6
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.
 sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-\everycr=\toks31
+\everycr=\toks43
 \minrowclearance=\skip77
 ) (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tabu/tabu.sty
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
@@ -527,109 +809,85 @@ Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/varwidth/varwidth.
 sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box62
-\sift@deathcycles=\count293
-\@vwid@loff=\dimen181
-\@vwid@roff=\dimen182
+\@vwid@box=\box77
+\sift@deathcycles=\count309
+\@vwid@loff=\dimen276
+\@vwid@roff=\dimen277
 )
-\c@taburow=\count294
-\tabu@nbcols=\count295
-\tabu@cnt=\count296
-\tabu@Xcol=\count297
-\tabu@alloc=\count298
-\tabu@nested=\count299
-\tabu@target=\dimen183
-\tabu@spreadtarget=\dimen184
-\tabu@naturalX=\dimen185
-\tabucolX=\dimen186
-\tabu@Xsum=\dimen187
-\extrarowdepth=\dimen188
-\abovetabulinesep=\dimen189
-\belowtabulinesep=\dimen190
-\tabustrutrule=\dimen191
-\tabu@thebody=\toks32
-\tabu@footnotes=\toks33
-\tabu@box=\box63
-\tabu@arstrutbox=\box64
-\tabu@hleads=\box65
-\tabu@vleads=\box66
+\c@taburow=\count310
+\tabu@nbcols=\count311
+\tabu@cnt=\count312
+\tabu@Xcol=\count313
+\tabu@alloc=\count314
+\tabu@nested=\count315
+\tabu@target=\dimen278
+\tabu@spreadtarget=\dimen279
+\tabu@naturalX=\dimen280
+\tabucolX=\dimen281
+\tabu@Xsum=\dimen282
+\extrarowdepth=\dimen283
+\abovetabulinesep=\dimen284
+\belowtabulinesep=\dimen285
+\tabustrutrule=\dimen286
+\tabu@thebody=\toks44
+\tabu@footnotes=\toks45
+\tabu@box=\box78
+\tabu@arstrutbox=\box79
+\tabu@hleads=\box80
+\tabu@vleads=\box81
 \tabu@cellskip=\skip78
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttable/thr
 eeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box67
+\@tempboxb=\box82
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttablex/th
 reeparttablex.sty
 Package: threeparttablex 2013/07/23 v0.3 by daleif
-
-(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/environ/environ.st
-y
-Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/trimspaces/trimspa
-ces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
 \TPTL@width=\skip79
 ) (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box68
-\UL@hyphenbox=\box69
+\UL@box=\box83
+\UL@hyphenbox=\box84
 \UL@skip=\skip80
-\UL@hook=\toks34
-\UL@height=\dimen192
-\UL@pe=\count300
-\UL@pixel=\dimen193
-\ULC@box=\box70
+\UL@hook=\toks46
+\UL@height=\dimen287
+\UL@pe=\count316
+\UL@pixel=\dimen288
+\ULC@box=\box85
 Package: ulem 2019/11/18
-\ULdepth=\dimen194
+\ULdepth=\dimen289
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/makecell/makecell.
 sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen195
-\c@nlinenum=\count301
-\TeXr@lab=\toks35
+\rotheadsize=\dimen290
+\c@nlinenum=\count317
+\TeXr@lab=\toks47
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count302
-\mult@box=\box71
-\multicol@leftmargin=\dimen196
-\c@unbalance=\count303
-\c@collectmore=\count304
-\doublecol@number=\count305
-\multicoltolerance=\count306
-\multicolpretolerance=\count307
-\full@width=\dimen197
-\page@free=\dimen198
-\premulticols=\dimen199
-\postmulticols=\dimen256
+\c@tracingmulticols=\count318
+\mult@box=\box86
+\multicol@leftmargin=\dimen291
+\c@unbalance=\count319
+\c@collectmore=\count320
+\doublecol@number=\count321
+\multicoltolerance=\count322
+\multicolpretolerance=\count323
+\full@width=\dimen292
+\page@free=\dimen293
+\premulticols=\dimen294
+\postmulticols=\dimen295
 \multicolsep=\skip81
 \multicolbaselineskip=\skip82
-\partial@page=\box72
-\last@line=\box73
-\maxbalancingoverflow=\dimen257
-\mult@rightbox=\box74
-\mult@grightbox=\box75
-\mult@gfirstbox=\box76
-\mult@firstbox=\box77
-\@tempa=\box78
-\@tempa=\box79
-\@tempa=\box80
-\@tempa=\box81
-\@tempa=\box82
-\@tempa=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
+\partial@page=\box87
+\last@line=\box88
+\maxbalancingoverflow=\dimen296
+\mult@rightbox=\box89
+\mult@grightbox=\box90
+\mult@gfirstbox=\box91
+\mult@firstbox=\box92
 \@tempa=\box93
 \@tempa=\box94
 \@tempa=\box95
@@ -652,15 +910,30 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box112
 \@tempa=\box113
 \@tempa=\box114
-\c@minrows=\count308
-\c@columnbadness=\count309
-\c@finalcolumnbadness=\count310
-\last@try=\dimen258
-\multicolovershoot=\dimen259
-\multicolundershoot=\dimen260
-\mult@nat@firstbox=\box115
-\colbreak@box=\box116
-\mc@col@check@num=\count311
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\c@minrows=\count324
+\c@columnbadness=\count325
+\c@finalcolumnbadness=\count326
+\last@try=\dimen297
+\multicolovershoot=\dimen298
+\multicolundershoot=\dimen299
+\mult@nat@firstbox=\box130
+\colbreak@box=\box131
+\mc@col@check@num=\count327
 ) (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/hhline.sty
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
 )
@@ -668,43 +941,43 @@ Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
 \csllabelwidth=\skip84
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count312
-\calc@Bcount=\count313
-\calc@Adimen=\dimen261
-\calc@Bdimen=\dimen262
+\calc@Acount=\count328
+\calc@Bcount=\count329
+\calc@Adimen=\dimen300
+\calc@Bdimen=\dimen301
 \calc@Askip=\skip85
 \calc@Bskip=\skip86
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count314
+\calc@Ccount=\count330
 \calc@Cskip=\skip87
 )
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count315
-\l__pdf_internal_box=\box117
+\l__color_backend_stack_int=\count331
+\l__pdf_internal_box=\box132
 ) (./QP2_Front_Page.aux)
 \openout1 = `QP2_Front_Page.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
 
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epsto
 pdf-base.sty
@@ -717,7 +990,7 @@ df-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 128.
+Package hyperref Info: Link coloring OFF on input line 129.
 
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
@@ -731,14 +1004,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count316
+\c@section@level=\count332
 )
-LaTeX Info: Redefining \ref on input line 128.
-LaTeX Info: Redefining \pageref on input line 128.
-LaTeX Info: Redefining \nameref on input line 128.
+LaTeX Info: Redefining \ref on input line 129.
+LaTeX Info: Redefining \pageref on input line 129.
+LaTeX Info: Redefining \nameref on input line 129.
 (./QP2_Front_Page.out) (./QP2_Front_Page.out)
-\@outlinefile=\write3
-\openout3 = `QP2_Front_Page.out'.
+\@outlinefile=\write4
+\openout4 = `QP2_Front_Page.out'.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -776,60 +1049,60 @@ LaTeX Info: Redefining \nameref on input line 128.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 128.
-<Partner_logos.png, id=217, 747.9945pt x 162.6075pt>
+(lastpage)             ! on input line 129.
+<Partner_logos.png, id=220, 747.9945pt x 162.6075pt>
 File: Partner_logos.png Graphic file (type png)
 <use Partner_logos.png>
-Package pdftex.def Info: Partner_logos.png  used on input line 143.
+Package pdftex.def Info: Partner_logos.png  used on input line 144.
 (pdftex.def)             Requested size: 486.27055pt x 105.71098pt.
-<EU_logo.png, id=219, 190.46156pt x 46.67438pt>
+<EU_logo.png, id=222, 190.46156pt x 46.67438pt>
 File: EU_logo.png Graphic file (type png)
 <use EU_logo.png>
-Package pdftex.def Info: EU_logo.png  used on input line 162.
+Package pdftex.def Info: EU_logo.png  used on input line 163.
 (pdftex.def)             Requested size: 190.46979pt x 46.67638pt.
 [1
 
 {c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
 x.map} <./Partner_logos.png> <./EU_logo.png>]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 197--207
+Overfull \hbox (27.63237pt too wide) in alignment at lines 198--208
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 207--213
+Overfull \hbox (27.63237pt too wide) in alignment at lines 208--214
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 213--353
+Overfull \hbox (27.63237pt too wide) in alignment at lines 214--354
  [] [] 
  []
 
-<Forest21logo.png, id=229, 282.45525pt x 59.62276pt>
+<Forest21logo.png, id=232, 282.45525pt x 59.62276pt>
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 357.
+Package pdftex.def Info: Forest21logo.png  used on input line 358.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [1
 
  <./Forest21logo.png>]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 369--379
+Overfull \hbox (27.63237pt too wide) in alignment at lines 370--380
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 379--385
+Overfull \hbox (27.63237pt too wide) in alignment at lines 380--386
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 385--393
+Overfull \hbox (27.63237pt too wide) in alignment at lines 386--394
  [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 395.
+Package pdftex.def Info: Forest21logo.png  used on input line 396.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [2
 
@@ -870,513 +1143,555 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 52.
+Package pdftex.def Info: Forest21logo.png  used on input line 55.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [3
 
 ])
-\tf@toc=\write4
-\openout4 = `QP2_Front_Page.toc'.
+\tf@toc=\write5
+\openout5 = `QP2_Front_Page.toc'.
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 402.
+Package pdftex.def Info: Forest21logo.png  used on input line 403.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [4] (./QP2_Front_Page.lof)
-\tf@lof=\write5
-\openout5 = `QP2_Front_Page.lof'.
+\tf@lof=\write6
+\openout6 = `QP2_Front_Page.lof'.
 
 (./QP2_Front_Page.lot)
-\tf@lot=\write6
-\openout6 = `QP2_Front_Page.lot'.
+\tf@lot=\write7
+\openout7 = `QP2_Front_Page.lot'.
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 407.
+Package pdftex.def Info: Forest21logo.png  used on input line 408.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [5
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-30.
+31.
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 451.
+Package pdftex.def Info: Forest21logo.png  used on input line 452.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [6
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 457.
+Package pdftex.def Info: Forest21logo.png  used on input line 458.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [7
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 463.
+Package pdftex.def Info: Forest21logo.png  used on input line 464.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [8
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 554.
+Package pdftex.def Info: Forest21logo.png  used on input line 555.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.554   F
+l.555   F
          oresters of 21st century, education shortcomings, and new teaching [1
 
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 611.
+Package pdftex.def Info: Forest21logo.png  used on input line 612.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [2]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 696.
+Package pdftex.def Info: Forest21logo.png  used on input line 697.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [3]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 746--756
+Overfull \hbox (27.63237pt too wide) in alignment at lines 745--755
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 756--762
+Overfull \hbox (27.63237pt too wide) in alignment at lines 755--761
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 762--782
+Overfull \hbox (27.63237pt too wide) in alignment at lines 761--781
  [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 782.
+Package pdftex.def Info: Forest21logo.png  used on input line 781.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [4]
-Overfull \hbox (15.39467pt too wide) in alignment at lines 802--812
+Overfull \hbox (15.39467pt too wide) in alignment at lines 798--808
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 812--818
+Overfull \hbox (15.39467pt too wide) in alignment at lines 808--814
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 818--826
+Overfull \hbox (15.39467pt too wide) in alignment at lines 814--822
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 843--853
+Overfull \hbox (15.39467pt too wide) in alignment at lines 836--846
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 853--859
+Overfull \hbox (15.39467pt too wide) in alignment at lines 846--852
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 859--867
+Overfull \hbox (15.39467pt too wide) in alignment at lines 852--860
  [] [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 867.
+Package pdftex.def Info: Forest21logo.png  used on input line 860.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [5]
-Overfull \hbox (15.39467pt too wide) in alignment at lines 884--894
+Overfull \hbox (15.39467pt too wide) in alignment at lines 874--884
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 894--900
+Overfull \hbox (15.39467pt too wide) in alignment at lines 884--890
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 900--908
+Overfull \hbox (15.39467pt too wide) in alignment at lines 890--898
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 926--936
+Overfull \hbox (15.39467pt too wide) in alignment at lines 912--922
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 936--942
+Overfull \hbox (15.39467pt too wide) in alignment at lines 922--928
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 942--950
+Overfull \hbox (15.39467pt too wide) in alignment at lines 928--936
  [] [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 950.
+Package pdftex.def Info: Forest21logo.png  used on input line 936.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [6]
-Overfull \hbox (2.7248pt too wide) in alignment at lines 965--975
+Overfull \hbox (2.7248pt too wide) in alignment at lines 951--961
  [] [] [] 
  []
 
 
-Overfull \hbox (2.7248pt too wide) in alignment at lines 975--981
+Overfull \hbox (2.7248pt too wide) in alignment at lines 961--967
  [] [] [] 
  []
 
 
-Overfull \hbox (2.7248pt too wide) in alignment at lines 981--1031
+Overfull \hbox (2.7248pt too wide) in alignment at lines 967--1017
  [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1031.
+Package pdftex.def Info: Forest21logo.png  used on input line 1017.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [7]
-Overfull \hbox (6.7248pt too wide) in alignment at lines 1050--1060
+Overfull \hbox (6.7248pt too wide) in alignment at lines 1036--1046
  [] [] [] [] 
  []
 
 
-Overfull \hbox (6.7248pt too wide) in alignment at lines 1060--1066
+Overfull \hbox (6.7248pt too wide) in alignment at lines 1046--1052
  [] [] [] [] 
  []
 
 
-Overfull \hbox (6.7248pt too wide) in alignment at lines 1066--1098
+Overfull \hbox (6.7248pt too wide) in alignment at lines 1052--1084
  [] [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1098.
+Package pdftex.def Info: Forest21logo.png  used on input line 1084.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [8]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1106--1116
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1120--1130
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1116--1122
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1130--1136
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1122--1142
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1136--1156
  [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1150--1160
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1164--1174
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1160--1166
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1174--1180
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1166--1174
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1180--1188
  [] [] [] [] 
- []
-
-
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1182--1192
- [] [] 
- []
-
-
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1192--1198
- [] [] 
- []
-
-
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1198--1248
- [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1248.
+Package pdftex.def Info: Forest21logo.png  used on input line 1188.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [9]
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1256--1266
- [] [] [] [] 
- []
-
-
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1266--1272
- [] [] [] [] 
- []
-
-
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1272--1280
- [] [] [] [] 
- []
-
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1280.
+Package pdftex.def Info: Forest21logo.png  used on input line 1234.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [10]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1288--1298
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1247--1257
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1298--1304
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1257--1263
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1304--1330
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1263--1313
  [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1338--1348
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1321--1331
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1348--1354
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1331--1337
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1354--1362
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1337--1345
  [] [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1362.
+Package pdftex.def Info: Forest21logo.png  used on input line 1345.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [11]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1370--1380
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1375--1385
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1380--1386
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1385--1391
  [] [] 
  []
 
 
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1386--1424
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1391--1417
  [] [] 
- []
-
-
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1432--1442
- [] [] [] [] 
- []
-
-
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1442--1448
- [] [] [] [] 
- []
-
-
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1448--1456
- [] [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1456.
+Package pdftex.def Info: Forest21logo.png  used on input line 1417.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [12]
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1464--1474
- [] [] 
- []
-
-
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1474--1480
- [] [] 
- []
-
-
-Overfull \hbox (27.63237pt too wide) in alignment at lines 1480--1506
- [] [] 
- []
-
-
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1514--1524
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1425--1435
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1524--1530
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1435--1441
  [] [] [] [] 
  []
 
 
-Overfull \hbox (15.39467pt too wide) in alignment at lines 1530--1538
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1441--1449
  [] [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1555.
+Package pdftex.def Info: Forest21logo.png  used on input line 1502.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [13]
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1517--1527
+ [] [] 
+ []
+
+
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1527--1533
+ [] [] 
+ []
+
+
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1533--1571
+ [] [] 
+ []
+
+
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1579--1589
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1589--1595
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1595--1603
+ [] [] [] [] 
+ []
+
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1640.
+Package pdftex.def Info: Forest21logo.png  used on input line 1616.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [14]
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1627--1637
+ [] [] 
+ []
+
+
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1637--1643
+ [] [] 
+ []
+
+
+Overfull \hbox (27.63237pt too wide) in alignment at lines 1643--1669
+ [] [] 
+ []
+
+
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1677--1687
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1687--1693
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (15.39467pt too wide) in alignment at lines 1693--1701
+ [] [] [] [] 
+ []
+
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1764.
+Package pdftex.def Info: Forest21logo.png  used on input line 1732.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[15
+[15]
+<Organogram.png, id=470, 1245.15187pt x 739.26187pt>
+File: Organogram.png Graphic file (type png)
+<use Organogram.png>
+Package pdftex.def Info: Organogram.png  used on input line 1798.
+(pdftex.def)             Requested size: 486.25327pt x 288.69449pt.
+<QP2_Front_Page_files/figure-latex/timeline-1.pdf, id=471, 469.755pt x 325.215p
+t>
+File: QP2_Front_Page_files/figure-latex/timeline-1.pdf Graphic file (type pdf)
+<use QP2_Front_Page_files/figure-latex/timeline-1.pdf>
+Package pdftex.def Info: QP2_Front_Page_files/figure-latex/timeline-1.pdf  used
+ on input line 1807.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 1813.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[16]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 1813.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1813 \clearpage
+                  <./Organogram.png>]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 1813.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1813 \clearpage
+                  <./QP2_Front_Page_files/figure-latex/timeline-1.pdf>]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 1894.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[19
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1904.
+Package pdftex.def Info: Forest21logo.png  used on input line 1913.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[16
-
-
+[20]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 1997.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[21
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2020.
-(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[17
-
-
-
-]
-File: Forest21logo.png Graphic file (type png)
-<use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2106.
-(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[18
-
-
-]
-File: Forest21logo.png Graphic file (type png)
-<use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2110.
-(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[19]
-File: Forest21logo.png Graphic file (type png)
-<use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2194.
-(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[20
-
-]
-File: Forest21logo.png Graphic file (type png)
-<use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2265.
-(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[21]
-File: Forest21logo.png Graphic file (type png)
-<use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2277.
+Package pdftex.def Info: Forest21logo.png  used on input line 2068.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [22]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2282.
+Package pdftex.def Info: Forest21logo.png  used on input line 2080.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[23
-
-]
+[23]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2305.
+Package pdftex.def Info: Forest21logo.png  used on input line 2085.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [24
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2310.
+Package pdftex.def Info: Forest21logo.png  used on input line 2110.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [25
 
 ]
-Overfull \hbox (7.26994pt too wide) in alignment at lines 2318--2328
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 2115.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[26
+
+]
+Overfull \hbox (7.26994pt too wide) in alignment at lines 2123--2133
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (7.26994pt too wide) in alignment at lines 2328--2334
+Overfull \hbox (7.26994pt too wide) in alignment at lines 2133--2139
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (7.26994pt too wide) in alignment at lines 2334--2378
+Overfull \hbox (7.26994pt too wide) in alignment at lines 2139--2183
  [] [] [] [] [] [] 
  []
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2380.
+Package pdftex.def Info: Forest21logo.png  used on input line 2185.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[26
+[27
+
+]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 2313.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[28
+
+
+
+]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 2453.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[29
+
+
+
+]
+File: Forest21logo.png Graphic file (type png)
+<use Forest21logo.png>
+Package pdftex.def Info: Forest21logo.png  used on input line 2569.
+(pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
+[30
+
+
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-388.
+577.
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2461.
+Package pdftex.def Info: Forest21logo.png  used on input line 2624.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[27
+[31
 
 
 ] 
 AED: lastpage setting LastPage
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2463.
+Package pdftex.def Info: Forest21logo.png  used on input line 2661.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
-[28] (./QP2_Front_Page.aux)
+[32] (./QP2_Front_Page.aux)
 Package rerunfilecheck Info: File `QP2_Front_Page.out' has not changed.
-(rerunfilecheck)             Checksum: 16AFDBE8A4F937775A8C959B8E187B8D;9273.
+(rerunfilecheck)             Checksum: EF64A206FBA06961287C274387CE5BB5;9065.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 65 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12828 strings out of 480517
- 191334 string characters out of 5898591
- 609162 words of memory out of 5000000
- 30011 multiletter control sequences out of 15000+600000
- 461231 words of font info for 61 fonts, out of 8000000 for 9000
+ 22269 strings out of 480517
+ 399498 string characters out of 5898591
+ 791168 words of memory out of 5000000
+ 39260 multiletter control sequences out of 15000+600000
+ 459755 words of font info for 61 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,16n,66p,3119b,3070s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,16n,83p,3119b,11396s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dv
 ips/lm/lm-ec.enc}{c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/d
 vips/lm/lm-ts1.enc}<c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
@@ -1384,17 +1699,17 @@ e1/public/lm/lmbx10.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/font
 s/type1/public/lm/lmbx12.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist
 /fonts/type1/public/lm/lmbx5.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-
 dist/fonts/type1/public/lm/lmbx6.pfb><c:/Users/nilsk/AppData/Roaming/TinyTeX/te
-xmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/Users/nilsk/AppData/Roaming/Tiny
+xmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/Users/nilsk/AppData/Roaming/Tiny
 TeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/nilsk/AppData/Roaming/
 TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/nilsk/AppData/Roam
 ing/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/Users/nilsk/AppData/R
 oaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/nilsk/AppDat
 a/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/nilsk/A
 ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on QP2_Front_Page.pdf (37 pages, 543444 bytes).
+Output written on QP2_Front_Page.pdf (41 pages, 622549 bytes).
 PDF statistics:
- 686 PDF objects out of 1000 (max. 8388607)
- 611 compressed objects within 7 object streams
- 207 named destinations out of 1000 (max. 500000)
- 440 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 725 PDF objects out of 1000 (max. 8388607)
+ 642 compressed objects within 7 object streams
+ 215 named destinations out of 1000 (max. 500000)
+ 462 words of extra memory for PDF output out of 10000 (max. 10000000)
 

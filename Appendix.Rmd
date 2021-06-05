@@ -14,3 +14,15 @@ bibliography: QP2.bib
 
 ```{r assocpartners, child = "Assocpartners.Rmd"}
 ```
+
+\clearpage
+```{r workplan1, child = "Workplan1.Rmd"}
+```
+
+\clearpage
+```{r workplan2, child = "Workplan2.Rmd"}
+```
+
+\clearpage
+```{r workplan3, child = "Workplan3.Rmd"}
+```
