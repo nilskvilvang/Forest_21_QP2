@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.3)  5 JUN 2021 12:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.3)  5 JUN 2021 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1228,24 +1228,24 @@ Overfull \hbox (15.39467pt too wide) in alignment at lines 1480--1488
 
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1500.
+Package pdftex.def Info: Forest21logo.png  used on input line 1502.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [13]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1505.
+Package pdftex.def Info: Forest21logo.png  used on input line 1507.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [14]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1629.
+Package pdftex.def Info: Forest21logo.png  used on input line 1631.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [15
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1769.
+Package pdftex.def Info: Forest21logo.png  used on input line 1771.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [16
 
@@ -1254,7 +1254,7 @@ Package pdftex.def Info: Forest21logo.png  used on input line 1769.
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1885.
+Package pdftex.def Info: Forest21logo.png  used on input line 1887.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [17
 
@@ -1263,7 +1263,7 @@ Package pdftex.def Info: Forest21logo.png  used on input line 1885.
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 1968.
+Package pdftex.def Info: Forest21logo.png  used on input line 1970.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [18
 
@@ -1271,43 +1271,43 @@ Package pdftex.def Info: Forest21logo.png  used on input line 1968.
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2052.
+Package pdftex.def Info: Forest21logo.png  used on input line 2054.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [19
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2123.
+Package pdftex.def Info: Forest21logo.png  used on input line 2125.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [20]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2135.
+Package pdftex.def Info: Forest21logo.png  used on input line 2137.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [21]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2140.
+Package pdftex.def Info: Forest21logo.png  used on input line 2142.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [22
 
 ]
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2165.
+Package pdftex.def Info: Forest21logo.png  used on input line 2167.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [23
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-173.
+175.
 (c:/Users/nilsk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2246.
+Package pdftex.def Info: Forest21logo.png  used on input line 2248.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [24
 
@@ -1316,11 +1316,11 @@ Package pdftex.def Info: Forest21logo.png  used on input line 2246.
 AED: lastpage setting LastPage
 File: Forest21logo.png Graphic file (type png)
 <use Forest21logo.png>
-Package pdftex.def Info: Forest21logo.png  used on input line 2248.
+Package pdftex.def Info: Forest21logo.png  used on input line 2250.
 (pdftex.def)             Requested size: 56.9038pt x 12.01167pt.
 [25] (./QP2_Front_Page.aux)
 Package rerunfilecheck Info: File `QP2_Front_Page.out' has not changed.
-(rerunfilecheck)             Checksum: 5C9AC983F9714D22563153A86BB5A138;9027.
+(rerunfilecheck)             Checksum: BA9F611765AC85247679EC38DA77E3BD;9022.
  )
 (\end occurred inside a group at level 1)
 
@@ -1328,8 +1328,8 @@ Package rerunfilecheck Info: File `QP2_Front_Page.out' has not changed.
 ### bottom level 
 Here is how much of TeX's memory you used:
  12760 strings out of 480517
- 189829 string characters out of 5898591
- 606774 words of memory out of 5000000
+ 189827 string characters out of 5898591
+ 606767 words of memory out of 5000000
  29962 multiletter control sequences out of 15000+600000
  461231 words of font info for 61 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1348,7 +1348,7 @@ ing/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/Users/nilsk/AppData/R
 oaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/nilsk/AppDat
 a/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/nilsk/A
 ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on QP2_Front_Page.pdf (34 pages, 531865 bytes).
+Output written on QP2_Front_Page.pdf (34 pages, 535603 bytes).
 PDF statistics:
  652 PDF objects out of 1000 (max. 8388607)
  581 compressed objects within 6 object streams

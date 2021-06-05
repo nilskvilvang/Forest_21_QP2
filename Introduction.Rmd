@@ -9,7 +9,6 @@ header-includes:
 
 bibliography: QP2.bib
 csl: apa.csl
-
 ---
 
 # Introduction
@@ -546,11 +545,11 @@ wp5obj %>%
 
 ### Structure for Project Work and Cooperation
 
+There are three levels of management:
+
 ### Key Project Deliverables, Milestones and Processes
 
-
-
-### Works Plans
+### Work Plans
 
 ```{r Workplan1, child = "Workplan1.Rmd"}
 ```

@@ -64,7 +64,12 @@ workplan2 <- height(workplan2, height = .3) %>%
 workplan2 %>%  
   theme_vanilla() %>%
   autofit() %>%
-  fit_to_width(8)
+  fit_to_width(8) %>%
+  bold(i=1, bold = TRUE) %>%
+  bold(i=3, bold = TRUE) %>%
+  bold(i=10, bold = TRUE) %>%
+  bold(i=13, bold = TRUE) %>%
+  bold(i=16, bold = TRUE)
 ```
 
 \elandscape

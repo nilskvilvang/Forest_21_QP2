@@ -13,7 +13,7 @@ csl: apa.csl
 
 ---
 
-\blandscape
+\blandscape7
 
 ```{r workplan1, echo = FALSE}
 
@@ -47,7 +47,12 @@ workplan1 <- set_caption(workplan1, "Work plan Year 1")
 workplan1 %>%  
   theme_vanilla() %>% # evt theme_zebra
   autofit() %>%
-  fit_to_width(8)
-```
+  fit_to_width(8) %>%
+  bold(i=1, bold = TRUE) %>%
+  bold(i=4, bold = TRUE) %>%
+  bold(i=7, bold = TRUE) %>%
+  bold(i=9, bold = TRUE) %>%
+  bold(i=13, bold = TRUE)
+  ```
 
 \elandscape
