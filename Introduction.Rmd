@@ -686,6 +686,8 @@ There are four levels of management:
 ### Organogram
 
 ![Organogram](Organogram.png)
+\clearpage
+
 
 ### Overall Timeline
 
