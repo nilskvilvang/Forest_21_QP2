@@ -687,7 +687,6 @@ There are four levels of management:
 
 ![Organogram](Organogram.png)
 
-
 ### Overall Timeline
 
 See Appendix for detailed Work Plans.
@@ -754,7 +753,7 @@ Tangible results of FOREST21 are the following:
 ```{=tex}
 \begin{tcolorbox}
 
-\textsc{text here}
+\textsc{Quality Planinng is defined as the process of determining important factors in FOREST21, and how the project, through partners' activities and the project organization, will meet those factors.}
 
 \end{tcolorbox}
 ```
@@ -763,7 +762,7 @@ Tangible results of FOREST21 are the following:
 ```{=tex}
 \begin{tcolorbox}
 
-\textsc{Quality assurance is an ongoing effort to address improvements of the deliverables over time through small, incremental changes or through system-level changes if so needed. The data collection timeline follows the cycles of WPs.}
+\textsc{Quality assurance is an ongoing effort to address improvements of the deliverables over time through small, incremental changes or through system-level changes if so needed. The data collection timeline follows the cycles of WPs. Quality Assurance releates to how processes are performed and how project deliverables are made.}
 
 \end{tcolorbox}
 ```
@@ -772,7 +771,7 @@ Tangible results of FOREST21 are the following:
 ```{=tex}
 \begin{tcolorbox}
 
-\textsc{text here}
+\textsc{Quality Control is the part of Quality Management that is focused on fulfilling all project quality requirements and evaluating whether deliverables meet the defined quality. Quality Control reviews the factors involved in the production of the project's outcome and the results itself.}
 
 \end{tcolorbox}
 ```

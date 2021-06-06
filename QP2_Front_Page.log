@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.3)  6 JUN 2021 19:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.3)  6 JUN 2021 22:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1685,10 +1685,10 @@ Package rerunfilecheck Info: File `QP2_Front_Page.out' has not changed.
 ### semi simple group (level 1) entered at line 65 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 22273 strings out of 480517
- 399562 string characters out of 5898591
- 814715 words of memory out of 5000000
- 39262 multiletter control sequences out of 15000+600000
+ 22275 strings out of 480517
+ 399614 string characters out of 5898591
+ 814707 words of memory out of 5000000
+ 39264 multiletter control sequences out of 15000+600000
  459755 words of font info for 61 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  83i,16n,83p,3503b,11376s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1706,7 +1706,7 @@ ing/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/Users/nilsk/AppData/R
 oaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/nilsk/AppDat
 a/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/nilsk/A
 ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on QP2_Front_Page.pdf (41 pages, 629776 bytes).
+Output written on QP2_Front_Page.pdf (41 pages, 631067 bytes).
 PDF statistics:
  735 PDF objects out of 1000 (max. 8388607)
  652 compressed objects within 7 object streams
