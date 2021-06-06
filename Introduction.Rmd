@@ -91,6 +91,7 @@ The wider objective for FOREST21 is thus defined as:
 
 \end{tcolorbox}
 ```
+
 ```{r widerobj, echo = FALSE}
 
 library(flextable)
@@ -110,7 +111,8 @@ widerobj <- height(widerobj, height = .3) %>%
 widerobj %>%  
   theme_vanilla() %>% # evt theme_zebra
   width(j=~Indicators,width=3.5) %>% 
-  width(j=~Measurement,width=3.5)
+  width(j=~Measurement,width=3.5) %>%
+  bg(bg = "#ADDFAD", part = "header")
   
 ```
 
@@ -123,6 +125,8 @@ widerobj %>%
 
 \end{tcolorbox}
 ```
+
+
 ```{r specobj1, echo = FALSE}
 
 library(flextable)
@@ -146,7 +150,8 @@ specobj1 %>%
   width(j=~Indicators,width=1.68) %>% 
   width(j=~Measurement,width=1.68) %>%
   width(j=~Risks,width=1.68) %>%
-  width(j=~Mitigation,width=1.68)
+  width(j=~Mitigation,width=1.68) %>%
+  bg(bg = "#ADDFAD", part = "header")
 ```
 
 ```{=tex}
@@ -156,6 +161,8 @@ specobj1 %>%
 
 \end{tcolorbox}
 ```
+
+
 ```{r specobj2, echo = FALSE}
 
 library(flextable)
@@ -179,7 +186,9 @@ specobj2 %>%
   width(j=~Indicators,width=1.68) %>% 
   width(j=~Measurement,width=1.68) %>%
   width(j=~Risks,width=1.68) %>%
-  width(j=~Mitigation,width=1.68)
+  width(j=~Mitigation,width=1.68) %>%
+  bg(bg = "#ADDFAD", part = "header")
+
 ```
 
 ```{=tex}
@@ -189,6 +198,8 @@ specobj2 %>%
 
 \end{tcolorbox}
 ```
+
+
 ```{r specobj3, echo = FALSE}
 
 library(flextable)
@@ -212,7 +223,8 @@ specobj3 %>%
   width(j=~Indicators,width=1.68) %>% 
   width(j=~Measurement,width=1.68) %>%
   width(j=~Risks,width=1.68) %>%
-  width(j=~Mitigation,width=1.68)
+  width(j=~Mitigation,width=1.68) %>%
+  bg(bg = "#ADDFAD", part = "header")
 ```
 
 ```{=tex}
@@ -222,6 +234,8 @@ specobj3 %>%
 
 \end{tcolorbox}
 ```
+
+
 ```{r specobj4, echo = FALSE}
 
 library(flextable)
@@ -245,7 +259,8 @@ specobj4 %>%
   width(j=~Indicators,width=1.68) %>% 
   width(j=~Measurement,width=1.68) %>%
   width(j=~Risks,width=1.68) %>%
-  width(j=~Mitigation,width=1.68)
+  width(j=~Mitigation,width=1.68) %>%
+  bg(bg = "#ADDFAD", part = "header")
 ```
 
 ### Project Coordinator
@@ -273,7 +288,8 @@ participants %>%
   theme_vanilla() %>% # evt theme_zebra
   width(j=~Institution,width=1) %>% 
   width(j=~Abbr,width=0.6) %>%
-  width(j=~Description, width = 5)
+  width(j=~Description, width = 5) %>%
+  bg(bg = "#ADDFAD", part = "header")
   
 ```
 
@@ -324,7 +340,8 @@ workpackages %>%
   width(j=~WP,width=0.5) %>% 
   width(j=~Lead,width=0.5) %>%
   width(j=~Co_Lead, width=1.6) %>%
-  width(j=~Content, width=4)
+  width(j=~Content, width=4) %>%
+  bg(bg = "#ADDFAD", part = "header")
   
 ```
 
@@ -355,7 +372,8 @@ wp1details <- height(wp1details, height = .3) %>%
 wp1details %>%  
   theme_vanilla() %>% # evt theme_zebra
   width(j=~Activities,width=5) %>% 
-  width(j=~Time,width=2)
+  width(j=~Time,width=2) %>%
+  bg(bg = "#ADDFAD", part = "header")
   
 ```
 
@@ -382,7 +400,8 @@ wp1obj %>%
   width(j=~Indicators,width=1.68) %>% 
   width(j=~Measurement,width=1.68) %>%
   width(j=~Risks,width=1.68) %>%
-  width(j=~Mitigation,width=1.68)
+  width(j=~Mitigation,width=1.68) %>%
+  bg(bg = "#ADDFAD", part = "header")
 ```
 
 #### Work Package 2
@@ -422,7 +441,8 @@ wp2details <- height(wp2details, height = .3) %>%
 wp2details %>%  
   theme_vanilla() %>% # evt theme_zebra
   width(j=~Activities,width=5) %>% 
-  width(j=~Time,width=2)
+  width(j=~Time,width=2) %>%
+  bg(bg = "#ADDFAD", part = "header")
   
 ```
 
@@ -449,7 +469,8 @@ wp2obj %>%
   width(j=~Indicators,width=1.68) %>% 
   width(j=~Measurement,width=1.68) %>%
   width(j=~Risks,width=1.68) %>%
-  width(j=~Mitigation,width=1.68)
+  width(j=~Mitigation,width=1.68) %>%
+  bg(bg = "#ADDFAD", part = "header")
 ```
 
 #### Work Package 3
@@ -475,7 +496,8 @@ wp3details <- height(wp3details, height = .3) %>%
 wp3details %>%  
   theme_vanilla() %>% # evt theme_zebra
   width(j=~Activities,width=5) %>% 
-  width(j=~Time,width=2)
+  width(j=~Time,width=2) %>%
+  bg(bg = "#ADDFAD", part = "header")
   
 ```
 
@@ -502,7 +524,8 @@ wp3obj %>%
   width(j=~Indicators,width=1.68) %>% 
   width(j=~Measurement,width=1.68) %>%
   width(j=~Risks,width=1.68) %>%
-  width(j=~Mitigation,width=1.68)
+  width(j=~Mitigation,width=1.68) %>%
+  bg(bg = "#ADDFAD", part = "header")
 ```
 
 #### Work Package 4
@@ -539,7 +562,8 @@ wp4details <- height(wp4details, height = .3) %>%
 wp4details %>%  
   theme_vanilla() %>% # evt theme_zebra
   width(j=~Activities,width=5) %>% 
-  width(j=~Time,width=2)
+  width(j=~Time,width=2) %>%
+  bg(bg = "#ADDFAD", part = "header")
   
 ```
 
@@ -566,7 +590,8 @@ wp4obj %>%
   width(j=~Indicators,width=1.68) %>% 
   width(j=~Measurement,width=1.68) %>%
   width(j=~Risks,width=1.68) %>%
-  width(j=~Mitigation,width=1.68)
+  width(j=~Mitigation,width=1.68) %>%
+  bg(bg = "#ADDFAD", part = "header")
 ```
 
 #### Work Package 5
@@ -596,7 +621,8 @@ wp5details <- height(wp5details, height = .3) %>%
 wp5details %>%  
   theme_vanilla() %>% # evt theme_zebra
   width(j=~Activities,width=5) %>% 
-  width(j=~Time,width=2)
+  width(j=~Time,width=2) %>%
+  bg(bg = "#ADDFAD", part = "header")
   
 ```
 
@@ -623,7 +649,8 @@ wp5obj %>%
   width(j=~Indicators,width=1.68) %>% 
   width(j=~Measurement,width=1.68) %>%
   width(j=~Risks,width=1.68) %>%
-  width(j=~Mitigation,width=1.68)
+  width(j=~Mitigation,width=1.68) %>%
+  bg(bg = "#ADDFAD", part = "header")
 ```
 
 ### Regulatory Framework and References

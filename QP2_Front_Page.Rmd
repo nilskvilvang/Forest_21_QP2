@@ -87,7 +87,7 @@ Disclaimer:\\
 The information in this document is provided "as is."\\
 No guarantee or warranty is given that the information is fit for any particular purpose.\\
 The content of this document reflects only the authors' view.\\
-The European Commission is not responsbile for any use that\\
+The European Commission is not responsible for any use that\\
 may be made of the information it contains.\\
 The users use the information at their sole risk and liability.
 
@@ -147,7 +147,7 @@ preamble <- data.frame(Item = c("Project Number",
                                   "Date",
                                   "Date",
                                   "1.0",
-                                  "GUxxx",
+                                  "PU",
                                   "",
                                   "XXXX xxxxx",
                                   "Adress: \n Phone: \n Mail",
@@ -167,7 +167,8 @@ preamble <- height(preamble, height = .3) %>%
 preamble %>%  
   theme_vanilla() %>% # evt theme_zebra
   width(j=~Item,width=2) %>% 
-  width(j=~Value,width=5) 
+  width(j=~Value,width=5) %>%
+  bg(bg = "#ADDFAD", part = "header")
 
 ```
 
@@ -190,7 +191,8 @@ verhist %>%
   theme_vanilla() %>% # evt theme_zebra
   width(j=~Version,width=2) %>% 
   width(j=~Status,width=5) %>%
-  set_caption("Version History") 
+  set_caption("Version History") %>%
+  bg(bg = "#ADDFAD", part = "header") 
 
 
 ```

@@ -52,7 +52,8 @@ workplan1 %>%
   bold(i=4, bold = TRUE) %>%
   bold(i=7, bold = TRUE) %>%
   bold(i=9, bold = TRUE) %>%
-  bold(i=13, bold = TRUE)
+  bold(i=13, bold = TRUE) %>%
+  bg(bg = "#ADDFAD", part = "header")
   ```
 
 \elandscape

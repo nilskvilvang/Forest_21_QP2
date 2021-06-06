@@ -64,7 +64,8 @@ assocpartners %>%
   width(j=~Place, width = 1) %>%
   width(j=~Country, width = 1) %>%
   width(j=~Role, width = 2.5) %>%
-  width(j=~Activities, width = 2)
+  width(j=~Activities, width = 2) %>%
+  bg(bg = "#ADDFAD", part = "header")
 ```
 
 \elandscape
